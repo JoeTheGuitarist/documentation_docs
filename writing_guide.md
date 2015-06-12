@@ -37,9 +37,9 @@ Our style guide is for internal use only. To community members we recommend [the
 
 Here is an important distinction: where you start writing and where the user starts reading are not the same place. The user will start at the beginning. You will not. This means you'll need to know:
 
-1. [What your'e going to write](#The-Writing-Map).
+1. [What your'e going to write](#the-writing-map).
 
-2. How to put it together to be read.
+2. [How to put it together to be read.](#the-reading-map)
 
 We'll create a map, list, coggle or interpretive dance routine for each before we start working. If we just improvise as we go along we'll get lost, forget things, double-up and generally take three times as long as we need to.
 
@@ -53,13 +53,13 @@ Before you start writing you should know what you'll need to cover. If you just 
 
 3. Think of all the technical background required to understand steps 1 and 2.
 
-4. Steps 1 to 3 have mapped out all of the technical ground you need to cover. Start fleshing it out bit by bit.
+4. Steps 1 to 3 have mapped out all of the technical ground you need to cover. Start [fleshing it out bit by bit](#fleshplan).
 
-5. Think of some examples showing how to use your tool and some of its best features.
+5. Think of some [examples](#giving-examples) showing how to use your tool and some of its best features.
 
-6. If there's additional material you want, like FAQs and a problem solving section, now's the time to outline them. 
+6. If there's [additional material](#additional-material) you want, like FAQs and a problem solving section, now's the time to outline them. 
 
-7. Finally, write an introduction. This should explain what your tool does and why I should bother using it. If you're writing for a new version of the tool, you'll address version differences either in the introduction or in the section after the introduction.
+7. Finally, [write an introduction](#Writing-an-Introduction). This should explain what your tool does and why I should bother using it. If you're writing for a new version of the tool, you'll address version differences either in the introduction or in the [section after the introduction](#version-differences).
 
 
 ### The Reading Map
@@ -78,9 +78,11 @@ When you're done writing, please don't forget to put the text in reading order. 
 
 6. Additional materials.
 
+<a name="fleshplan">
 ## How to Flesh Out - the Plan
+</a>
 
-Now you have a map of features and their sub-functions or options. Assuming it's not enough (don't assume - for some things it may well do), how do you turn that map into a text? You measure every feature on your list against a checklist.
+Now you have a map of features and their sub-functions or options. Assuming it's not enough (don't assume - for [some things it may well do](#Scalability)), how do you turn that map into a text? You measure every feature on your list against a checklist.
 
 ### Checklists
 
@@ -96,7 +98,7 @@ Every feature your tool offers (probably) has the following:
 
 5. One or more failure scenarios and ways of handling them.
 
-You can flesh things out by going over each item in your list and checking it off as you explain it. For some items, you'll have to do quite a bit of writing (this is why you listed all sub-functions earlier - so that you don't forget any now).
+You can flesh things out by going over each item in your list and checking it off as [you explain it](#fleshexplain). For some items, you'll have to do quite a bit of writing (this is why you listed all sub-functions earlier - so that you don't forget any now).
 
 You may have noticed by now that I'm a huge fan of working to a list. You should list every section's content before you start writing it. If you think of something as you write, add it to the list rather than divert yourself by writing it (or forgetting about it). So, for example, make a list of failure scenarios, and a list of solutions for each one. Then write into that list.
 
@@ -122,7 +124,9 @@ It's also valid for different kinds of text, although it might at times lack ele
 
 How do you know how detailed your docs should be? Some of it is gut feeling, some of it is common sense (it's a fine line between the two). Either way: write it out, give it to someone, and ask them if they understood and managed to follow it and use the tool. If they didn't, it was either too short or too messy (or both). There is a third option, but then it's your fault for picking that person as your doc's tester, so either way you learned a lesson.
 
+<a name="fleshexplain">
 ## How to Flesh Out - Explaining Things
+</a>
 
 You can start [here](http://arkinwriting.com/2014/02/21/dont-dumb-it-down-layer-it-up-writing-tips-for-engineers/).
 
