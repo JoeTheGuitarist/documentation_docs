@@ -36,19 +36,19 @@ Documentation living on GitHub can be published on [docs.mbed.org](http://docs.m
 
 - Log into docs.mbed.org with your **developer.mbed.org** credentials. You'll be taken to your dashboard.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](/Images/DocsLogin.png)</span>
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](/Docs/Images/DocsLogin.png)</span>
 
 - Click **Import a Project**.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Import](/Images/Import.png)</span>
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Import](/Docs/Images/Import.png)</span>
 
 - You have two importing options. Click **Manually Import Project**.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Manually import](/Images/ManuallyImport.png)</span>
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Manually import](/Docs/Images/ManuallyImport.png)</span>
 
 - Name your project and enter the GitHub repo URL.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project details](/Images/ProjectDetails.png)</span>
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project details](/Docs/Images/ProjectDetails.png)</span>
 
 - Review the other options. The default values may well be all you need.
 
@@ -56,7 +56,7 @@ Documentation living on GitHub can be published on [docs.mbed.org](http://docs.m
 
 - The project tries to build a first version as soon as it's created. Click **Builds** to see the build's progress. 
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project home page](/Images/ProjectHome.png)</span>
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project home page](/Docs/Images/ProjectHome.png)</span>
 
 * When the build is done, you can click **View Docs** to see your project. 
 
