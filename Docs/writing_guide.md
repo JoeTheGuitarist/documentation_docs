@@ -20,9 +20,9 @@ It covers:
 
 And a few other topics.
 
-For advice about publishing your documentation, see [the publishing guide](/publishing_guide.md).
+For advice about publishing your documentation, see [the publishing guide](/Docs/publishing_guide.md).
 
-Our style guide is for internal use only. To community members we recommend [the Guardian](http://www.theguardian.com/guardian-observer-style-guide-a) and [the Economist](http://www.economist.com/styleguide/introduction) for British English and the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/contents) for American English.
+Our style guide is [available here](/Docs/style_guide.md).
 
 ## General Writing Tips
 

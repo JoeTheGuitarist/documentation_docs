@@ -2,7 +2,7 @@
 
 This guide is intended for developers who are trying to add documentation to their projects. It details the tools we use (GitHub, docs.mbed.org and Markdown) and the scope of documentation.
 
-For advice about writing your documentation, see [the writing guide](/writing_guide/).
+For advice about writing your documentation, see [the writing guide](/Docs/writing_guide.md).
 
 ## What to Publish
 
