@@ -310,21 +310,21 @@ Ambiguity is English's superpower. The sentence structure is flexible, but the w
 
 Read each sentence twice (at least), giving the words their different possible meanings and linking them differently. Did the meaning change? Here's an example:
 
-> "I saw it in Germany. It is so common there is even a museum for it."
+> "I saw it in England. It is so common there is a store on every corner."
 
 This example is based on the two possible meaning of the word "there": it can mean "in Germany" and it can be the first part of "there is". Which meaning did you give it the first time you read the sentence? Obviously this sentence resolves itself as you read it to the end, but it would help the readers if it didn't catch them out (for example, by writing "there's" or using a comma).
 
-Here's an example that can be fixed with a hyphen:
+Here's [an example](http://www.itv.com/news/meridian/update/2013-12-31/southeastern-run-late-trains-for-new-years-eve/) that can be fixed with a hyphen:
 
-> "There will be extra trains to and from Leeds, Newcastle, Edinburgh, and Glasgow, including more late night trains from London."
+> "Southeastern trains are running extra late night services."
 
-They meant "late-night trains". Probably.
+They meant late-night, not extra-late. Probably.
 
-Sometimes, as in the first example, the context of the sentence makes the meaning clear. In that case all the reader has lost is the two seconds it took to switch meanings. But some sentences are completely ambiguous. Consider this miraculous example:
+Sometimes, as in the first example, the context of the sentence makes the meaning clear. In that case all the reader has lost is the two seconds it took to switch meanings. But some sentences are completely undecipherable without extra information. Consider this [miraculous example](https://en.wikipedia.org/wiki/List_of_linguistic_example_sentences):
 
 > "Did you ever hear the story about the blind carpenter who picked up his hammer and saw?"
 
-This sentence is only clear to the writer. You can spot these sentences by changing your inner voice to put stress on different words than you normally do; this will flush out possible readings that you hadn't thought of. Here's another example:
+This sentence is only clear to the writer. You can spot these sentences by changing your inner voice to put stress on different words than you normally do; this will flush out possible readings that you hadn't thought of. Here's [another example](https://en.wikipedia.org/wiki/List_of_linguistic_example_sentences):
 
 > "I saw her duck".
 
@@ -365,10 +365,6 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 ## The rest
 
 * mbed OS, not mbedOS or mbed-OS.
-
-* Doughnuts, not donuts (unless you’re in Texas).
-
-* Tesco, not Tesco’s (even in Texas).
 
 * No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
 
