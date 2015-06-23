@@ -98,6 +98,8 @@ However, I also don't intend to waste time on hunting down American English (it'
 
 ## Vocabulary
 
+Here is the correct form of several terms you shouldn’t be using: I couldn’t care less (unless you could); gobbledegook (not gobbledygook); groundbreaking (don’t flatter yourself); hovercraft (although if you find a legitimate reason to use this in mbed documentation, I’m sure we’ll all appreciate it); knowhow (it’s not two words, just an ugly one); morris dancing (as in “technical writing is the morris dancing of the writing world”); ongoing (not two words; not a word, either - it’s jargon, so don’t use it); Tardis (but see the note about hovercrafts).
+
 ### In General
 
 * Don't give the same thing two different names. This is not a cryptic puzzle.
