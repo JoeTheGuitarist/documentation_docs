@@ -202,6 +202,8 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 * Password (one word).
 
+* Generally, “starting with” is for when the order doesn’t actually matter, we just pick a starting point at random. “Starting from” implies that there is a logical order. So with versions, we might expect it to be “starting from”. Probably.
+
 * The plural is antennae, though no one will be confused by antennas.
 
 * And again from the Guardian: [Systematic: methodical. Systemic: relating to a system](http://www.theguardian.com/guardian-observer-style-guide-s).
