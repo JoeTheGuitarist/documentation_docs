@@ -1,0 +1,11 @@
+site_name: Documentation Guides
+
+docs_dir: Docs
+
+pages:
+- ['readme.md','Introduction to the Documentation Guides']
+- ['Docs/style_guide.md', 'Guides', 'Style Guide']
+- ['Docs/writing_guide.md', 'Guides', 'Writing Guide']
+- ['Docs/publishing_guide.md', 'Guides', 'Publishing Guide']
+
+extra_css: ['FullCSS.css']
