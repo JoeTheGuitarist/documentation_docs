@@ -126,13 +126,13 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 * Log into (two words, not three).
 
-* The [Guardian says](http://www.theguardian.com/guardian-observer-style-guide-g) Google is the correct form of the verb; I write google. Pick one and stick with it (hint: the Guardian know more than I do).
+* The [Guardian says](http://www.theguardian.com/guardian-observer-style-guide-g) Google is the correct form of the verb; I write google. Pick one and stick with it (hint: the Guardian knows more than I do).
 
 * Don't say an option enables or allows x, because that implies not that x will be performed, but that x is now available for selection. Unless that’s what you meant, of course.
 
 ### Counting Things
 
-* If you can count it, it's “fewer”. If you can't count it, it's “less”. This applies even if you can't, in practice, count it. This often doesn’t matter to readers, but sometimes choosing the wrong word makes a mess of your sentence. For example, you may modify a noun to be weaker (less) rather than smaller in number (fewer): “you’ll need less powerful boards” (weaker boards are enough) v “you’ll need fewer powerful boards” (if you use powerful boards, you won’t need as many.
+* If you can count it, it's “fewer”. If you can't count it, it's “less”. This applies even if you can't, in practice, count it. This often doesn’t matter to readers, but sometimes choosing the wrong word makes a mess of your sentence. For example, you may modify a noun to be weaker (less) rather than smaller in number (fewer): “you’ll need less powerful boards” (weaker boards are enough) v “you’ll need fewer powerful boards” (if you use powerful boards, you won’t need as many).
 
 * In a sentence, it’s:
 	
@@ -222,7 +222,7 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 ## Capitalisation
 
-For capitalisation of units of measurement, [see below](#capumeas).
+For capitalisation of units of measurement, [see the last section](#capumeas).
 
 Capitals are distracting, so when in doubt - don’t use one.
 
@@ -268,21 +268,21 @@ If you want to, you can write an entire readme file with only commas and periods
 
 * Quotes are wrongly used at least half of the time; don’t use them to draw attention to a word or to emphasise anything.
 
-* I encourage you to use colons when you’re introducing things like lists or bits of code. Or as Fowler put it (quoted by [the Guardian](http://www.theguardian.com/guardian-observer-style-guide-c): “[Use a colon] to deliver the goods that have been invoiced in the preceding words”.
+* I encourage you to use colons when you’re introducing things like lists or bits of code. Or as Fowler put it (quoted by [the Guardian](http://www.theguardian.com/guardian-observer-style-guide-c)): “[Use a colon] to deliver the goods that have been invoiced in the preceding words”.
 
 * I love dashes, and probably overuse them. Here’s [the Economist](http://www.economist.com/style-guide/dashes): “Use a dash to introduce an explanation, amplification, paraphrase, particularisation or correction of what immediately precedes it. Use it to gather up the subject of a long sentence. Use it to introduce a paradoxical or whimsical ending to a sentence. Do not use it as a punctuation maid-of-all-work.” (Gowers). In pairs, they can be used more or less like parenthesis.
 
-	Please remember you that a dash and a hyphen are not the same: if you put a space on either side, it’s a dash; if you don’t put any spaces, it’s a hyphen; if you put one space, you’re doing it wrong.
+	Please remember that a dash and a hyphen are not the same: if you put a space on either side, it’s a dash; if you don’t put any spaces, it’s a hyphen; if you put one space, you’re doing it wrong.
 
 * Hyphens:
 
-	* I tend to overuse them, so you might want to listen to someone else ([the Guardian](http://www.theguardian.com/guardian-observer-style-guide-h)): “Most adverbial phrases do not need hyphens. Never use them after adverbs ending in -ly, eg constantly evolving newspaper, genetically modified food, hotly disputed penalty, wholly owned subsidiary. 
-	
-	For adverbs that do not end in -ly, use hyphens only when there would be a possibility of ambiguity without one, eg an ill-prepared speech.  
+	* I tend to overuse them, so you might want to listen to someone else ([the Guardian](http://www.theguardian.com/guardian-observer-style-guide-h)): “Most adverbial phrases do not need hyphens. Never use them after adverbs ending in -ly, eg constantly evolving newspaper, genetically modified food, hotly disputed penalty, wholly owned subsidiary.
 
-	But phrases such as ever forgiving, near fatal, now defunct, once popular, etc do not need hyphens. 
+		For adverbs that do not end in -ly, use hyphens only when there would be a possibility of ambiguity without one, eg an ill-prepared speech. 
 
-	Exceptions: much and well when used before a noun, eg a much-loved character (but a character who is much loved), a well-founded suspicion (a suspicion that is well founded), etc.”
+		But phrases such as ever forgiving, near fatal, now defunct, once popular, etc do not need hyphens.
+
+		Exceptions: much and well when used before a noun, eg a much-loved character (but a character who is much loved), a well-founded suspicion (a suspicion that is well founded), etc.”
 
 	* Avoid using them when the word is formed by one word and a short prefix, such as bi-, de- and neo-.
 
@@ -384,9 +384,9 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * Read/write, despite my habit of separating them.
 
-* In ARM documentation, PC stands for "program counter", not personal computer. It's therefore either a Windows workstation or a Linux workstation.
+* In ARM documentation, PC stands for "program counter", not personal computer. So use either "Windows workstation" or "Linux workstation".
 
-* Silicon. If you add an E at the end, you’re in the wrong industry (you could be earning loads more!).
+* Silicon. If you add an E at the end, you’re in the wrong industry (you could be earning loads more).
 
 * sim, not SIM.
 
