@@ -24,7 +24,7 @@ This is not a full writing guide. It doesn’t tell you how to write a full text
 
 * If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
 
-If you want more information about writing, see our [writing guide](/Docs/writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
+If you want more information about writing, see our [writing guide](/writing_guide/). It deals with things like writing examples and instructions, ordering your text and self-editing.
 
 ______
 

@@ -20,9 +20,9 @@ It covers:
 
 And a few other topics.
 
-For advice about publishing your documentation, see [the publishing guide](/Docs/publishing_guide.md).
+For advice about publishing your documentation, see [the publishing guide](/publishing_guide/).
 
-Our style guide is [available here](/Docs/style_guide.md).
+Our style guide is [available here](/style_guide/).
 
 ## General Writing Tips
 
