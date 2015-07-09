@@ -3,7 +3,7 @@ site_name: Documentation Guides
 docs_dir: Docs
 
 pages:
-- ['readme.md','Introduction to the Documentation Guides']
+- ['index.md','Introduction to the Documentation Guides']
 - ['style_guide.md', 'Guides', 'Style Guide']
 - ['writing_guide.md', 'Guides', 'Writing Guide']
 - ['publishing_guide.md', 'Guides', 'Publishing Guide']
