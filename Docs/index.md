@@ -11,6 +11,9 @@ Okay, link formats when the files are all in the same folder:
 
 [/writing_guide/](/writing_guide/) - only one that works on Mkdcos, doesn't work on GitHub
 
+[writing_guide.md](writing_guide.md) - okay...
+
+
 [../writing_guide.md](../writing_guide.md) - doesn't work anywhere
 
 [/Docs/writing_guide/](/Docs/writing_guide/) - doesn't work anywhere
