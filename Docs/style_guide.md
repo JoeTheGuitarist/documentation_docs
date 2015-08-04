@@ -96,6 +96,8 @@ However, I also don't intend to waste time on hunting down American English (it'
 
 * If, whether, whether or not: [Grammar Girl has it](http://www.quickanddirtytips.com/education/grammar/if-versus-whether).
 
+* Plurals: use [common sense](http://www.theguardian.com/media/mind-your-language/2015/jul/17/two-whoppers-junior-please-with-hashes-brown-on-the-side).
+
 ## Vocabulary
 
 Here is the correct form of several terms you shouldn’t be using: I couldn’t care less (unless you could); gobbledegook (not gobbledygook); groundbreaking (don’t flatter yourself); hovercraft (although if you find a legitimate reason to use this in mbed documentation, I’m sure we’ll all appreciate it); knowhow (it’s not two words, just an ugly one); morris dancing (as in “technical writing is the morris dancing of the writing world”); ongoing (not two words; not a word, either - it’s jargon, so don’t use it); Tardis (but see the note about hovercrafts).
@@ -373,6 +375,8 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 * No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
 
 * Also not capitalised: yotta.
+
+* micro:bit, no capitals and with a punctuation mark in the middle of the word.
 
 * mbed TLS (two words).
 
