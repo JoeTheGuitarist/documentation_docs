@@ -296,7 +296,7 @@ If you want to, you can write an entire readme file with only commas and periods
 
 	* Switching for a moment to [the Economist](http://www.economist.com/style-guide/hyphens), use them for most words that begin with anti-, counter-, half-, inter-, non- and semi-.
 
-	* Use them to avoid ambiguities: mbed-enabled boards (boards that have mbed bits) and mbed enabled boards (mbed did something to boards) are different sentences.
+	* Use them to avoid ambiguities: mbed-enabled boards (boards that have mbed bits) and mbed enabled boards (mbed did something to boards) are different sentences. But do note that it's now "mbed Enabled", so you don't need the hyphen to avoid the ambiguity. 
 
 * Use a question mark only when you’re asking a question, not to indicate uncertainty. And please use a proper question, not a statement - those are different constructions in English.
 
@@ -372,9 +372,11 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 ## The rest
 
-* mbed OS, not mbedOS or mbed-OS.
+* mbed OS, not mbedOS or mbed-OS. And if you're adding a trademark, it comes after OS: mbed OS™.
 
 * ARM mbed (two words).
+
+* mbed Enabled (to match the name of the partner program).
 
 * No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
 
