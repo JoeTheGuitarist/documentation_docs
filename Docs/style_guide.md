@@ -398,7 +398,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * Silicon. If you add an E at the end, you’re in the wrong industry (you could be earning loads more).
 
-* sim, not SIM.
+* sim, not SIM. Many people object to this; go with SIM if you prefer.
 
 * I have no idea where the word breadboardable came from, but I love it.
 
