@@ -372,7 +372,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 ## The rest
 
-* mbed OS, not mbedOS or mbed-OS. And if you're adding a trademark, it comes after OS: mbed OS™.
+* mbed OS, not mbedOS or mbed-OS. 
 
 * ARM mbed (two words).
 
