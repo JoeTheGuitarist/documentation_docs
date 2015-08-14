@@ -24,9 +24,9 @@ Our documentation is written in Markdown and lives on GitHub:
 
 2. Your docs should sit in the same GitHub repository as the code. So if you have a repo at github.com/ARMmbed/repo, you have two options:
 
-	* Put an MD file in the root (github.com/ARMmbed/repo/readme.md).
+	* Put an MD file in the root (https://github.com/ARMmbed/repo/readme.md).
 
-	* Create a directory for your file (github.com/ARMmbed/repo/doc/readme.md). 
+	* Create a directory for your file (https://github.com/ARMmbed/repo/doc/readme.md). 
 
 3. Feel free to create more than one MD file. You should probably have readme.md as the main, though, cause most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 

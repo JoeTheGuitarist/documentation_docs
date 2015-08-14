@@ -24,7 +24,7 @@ This is not a full writing guide. It doesn’t tell you how to write a full text
 
 * If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
 
-If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
+* If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
 
 ______
 
@@ -48,11 +48,35 @@ If you’re not sure, follow this emergency procedure:
 
 ## A Word About American v British English
 
-ARM uses the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/contents) and [Merriam-Webster's Collegiate Dictionary](http://www.merriam-webster.com/). Both of these are in American English (or International English, which follows the American spelling). But mbed's style guide is in British English (it's based on the Economist and Guardian). Why?
+ARM uses the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/contents) and [Merriam-Webster's Collegiate Dictionary](http://www.merriam-webster.com/). Both of these are in American English (or International English, which follows the American spelling). 
 
-Well, it's not because I'm a snob. It's because I don't expect developers to learn to spell in a particular system just to write a little readme file. I did a quick headcount (I didn't really) and concluded that the Cambridge office is the biggest. So by popular vote, we're going with British spelling.
+To pick a spelling for a word with two or more commonly used options, go to Merriam-Webster and use the spelling listed first. 
 
-However, I also don't intend to waste time on hunting down American English (it's better armed, anyway). So if you're American, or if you've learned American English, you can make a rude noise and ignore me when I say that the verb ending is "-se".
+The ARM style guide has a summary of the most consistent differences between British and International English:
+
+* Past and continuous tense of words ending in -l do not use -ll. For example: 
+	* Cancelled is canceled. 
+	* Cancelling is canceling. 
+	* Labelled is labeled. 
+	* Labelling is labeling. 
+
+* Words ending in -ise end in -ize. For example:
+	* Initialise is initialize. 
+	* Customise is customize. 
+
+* Words ending in -yse end in -yze. For example: 
+	* Analyse is analyze. 
+
+* Words ending in -our end in -or. For example: 
+	* Colour is color. 
+	* Behaviour is behavior. 
+
+* Past and past participle tense of words ending in -t end in -ed. For example: 
+	* Learnt is learned. 
+	* Spelt is spelled. 
+
+* Words ending in -ogue end in -og. 
+	* For example: — Dialogue is dialog
 
 ## Spelling
 

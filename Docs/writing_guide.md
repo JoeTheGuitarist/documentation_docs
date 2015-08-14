@@ -34,6 +34,8 @@ Our style guide is [available here](style_guide.md).
 
 * If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
 
+* Technical writing should convey facts, not scatter confetti. If your sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
+
 ## Document Maps - Writing v Reading
 
 Here is an important distinction: where you start writing and where the user starts reading are not the same place. The user will start at the beginning. You will not. This means you'll need to know:
