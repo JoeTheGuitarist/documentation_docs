@@ -384,7 +384,7 @@ The two main changes are a move from passive to active voice, and bullet points 
 
 ## Writer's Blocks Aren't Just for Fiction Writers
 
-Got writer's block? Trying to edit yourself but keep reverting back to the original? Not to worry - generations of writers have successfully dealt with these same issues with little more than these helpful tips (and alcohol, consumption and criminal behaviour):
+Got writer's block? Trying to edit yourself but keep reverting back to the original? Not to worry - generations of writers have successfully dealt with these same issues with little more than these helpful tips (and alcohol, chain smoking and criminal behaviour):
 
 * Look away from the text for a while - work on something else, take a walk, make a cup of tea.
 
