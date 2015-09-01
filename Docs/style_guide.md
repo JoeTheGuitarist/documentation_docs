@@ -410,6 +410,8 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * mbed TLS (two words).
 
+* mbed OS uVisor.
+
 * Runtime (one word).
 
 * Microcontroller (one word).
@@ -519,3 +521,6 @@ _____
 * But seconds is s, not S.
 
 * When talking about signal states, it's HIGH and LOW. I also like TRUE and FALSE for binaries.
+
+______
+Copyright © 2015 ARM Ltd. All rights reserved.

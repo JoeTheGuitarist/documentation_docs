@@ -62,3 +62,6 @@ Documentation living on GitHub can be published on [docs.mbed.org](http://docs.m
 
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">
 **Tip**: docs.mbed.org uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about more options.</span>
+
+______
+Copyright © 2015 ARM Ltd. All rights reserved.

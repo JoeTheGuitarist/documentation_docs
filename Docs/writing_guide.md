@@ -400,3 +400,6 @@ Got writer's block? Trying to edit yourself but keep reverting back to the origi
 
 ## A Final Word of Warning
 Do not leave your own notes in the text when you publish it, especially if you tend to be less than entirely polite when talking to yourself (and your collaborators). Always preface them with the same bit of text, like TBD or WTF, and do a search on it before publishing.
+
+______
+Copyright © 2015 ARM Ltd. All rights reserved.
