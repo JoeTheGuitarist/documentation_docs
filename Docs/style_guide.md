@@ -394,7 +394,7 @@ This is not 100% consistent. Nothing in English is, though, so I’m not too wor
 
 You can only use processor names as adjectives or adverbs. For example, refer to the ARM926EJ-S processor, not the ARM926EJ-S.
 
-## The rest
+## Spelling our product names
 
 * No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
 
@@ -411,6 +411,10 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 * mbed TLS (two words).
 
 * mbed OS uVisor.
+
+* mbed BLE, not mbed/BLE.
+
+## The rest
 
 * Runtime (one word).
 
@@ -475,8 +479,6 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 * FOTA (not FOtA).
 
 * LED (although many people pronounce it like the past tense of lead). The article is an, not a, since we assume people pronounce it “el ee dee”.
-
-* mbed BLE, not mbed/BLE.
 
 * mKIT.
 
