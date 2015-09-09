@@ -384,7 +384,7 @@ ________
 
 Quick flashback to school (stop screaming, it will be over soon!): there are two kinds of nouns, proper and common. A proper noun points to a unique thing, and it therefore takes no article (unless the article is part of the name, like the Rolling Stones). A common noun, on the other hand, points to a class or a non-specific instance of a class, and therefore takes an article.
 
-When you're referring to specific APIs, functions, services and so on, the structure of the sentence is how you'll know if they're proper or common. "We use BLE_API" - this is a specific API. It's a proper noun, and therefore takes no article. "We use the BLE, not WiFi, API" - you're talking about two kinds of API, and the focus is on the API. The two kinds - BLE and WiFi - are treated as common nouns, and they take the article "the". You'll note that we didn't use their proper names (BLE_API has an underscore, "the BLE API" doesn't).
+When you're referring to specific APIs, functions, services and so on, the structure of the sentence is how you'll know if they're proper or common. "We use BLE_API" - this is a specific API. It's a proper noun, and therefore takes no article. "We use the BLE, not Wi-Fi, API" - you're talking about two kinds of API, and the focus is on the API. The two kinds - BLE and Wi-Fi - are treated as common nouns, and they take the article "the". You'll note that we didn't use their proper names (BLE_API has an underscore, "the BLE API" doesn't).
 
 The difference is more obvious in the following two sentences: "we call waitForEvent()" and "we call the waitForEvent() function". The reason you needed the article "the" in the second sentence is that you used the word "function", rather than just the name of a specific function
 
@@ -434,7 +434,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * world wide web, despite worldwide usually being one word. Cause it’s English, that’s why.
 
-* Wi-Fi or WiFi. Pick one, I give up.
+* Wi-Fi or WiFi. Pick one, I give up (but I'll give you a hint: the alliance is Wi-Fi).
 
 * Ethernet, not ethernet.
 
