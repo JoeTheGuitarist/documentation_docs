@@ -84,7 +84,7 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * Do not trust the spellchecker.
 
-* Okay, that was a bit unfair. If you’re not sure you’ve got the correct spelling, you can do two things: google the spelling you have and see what the dictionary says, or google both forms (“x or y?”) and see if anyone explains the difference. If the only difference is that one is British and one is American, use whichever one you’re used to (if you’re not used to either, please use British).
+* Okay, that was a bit unfair. If you’re not sure you’ve got the correct spelling, you can do two things: google the spelling you have and see what the dictionary says, or google both forms (“x or y?”) and see if anyone explains the difference. If the only difference is that one is British and one is American, please use American.
 
 * Do not use all-caps unless that is the legal form of a name (so it's ARM, not Arm).
 
@@ -396,13 +396,13 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 ## The rest
 
+* No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
+
 * mbed OS, not mbedOS or mbed-OS. 
 
 * ARM mbed (two words).
 
 * mbed Enabled (to match the name of the partner program).
-
-* No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
 
 * Also not capitalised: yotta.
 
@@ -417,6 +417,8 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 * Microcontroller (one word).
 
 * Online (one word).
+
+* internet, but Internet of Things.
 
 * Read/write, despite my habit of separating them.
 
