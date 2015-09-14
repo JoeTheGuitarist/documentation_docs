@@ -10,7 +10,7 @@ The style guide has two parts:
 
 2. [mbed-specific tips](#mbed).
 
-The trick with a style guide isn’t to remember the right way of using all of these, it’s to remember that you need to look it up.
+The trick with a style guide isn’t to remember the right way of using all of these - it’s to remember that you need to look it up.
 
 # About Writing
 
@@ -23,6 +23,8 @@ This is not a full writing guide. It doesn’t tell you how to write a full text
 * Don’t let your sentences run away from you - keep them short and simple.
 
 * If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
+
+* Technical writing should convey facts, not scatter confetti. If a sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
 
 * If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
 

@@ -6,17 +6,17 @@ Welcome to mbed's not-as-short-as-expected writing guide. This guide should help
 
 It covers:
 
-* General writing tips.
+* [General writing tips](#general-writing-tips).
 
-* Mapping your document for writing and reading.
+* [Mapping](#document-maps-writing-v-reading) your document for writing and reading.
 
-* Fleshing out your map. 
+* [Fleshing out](#fleshplan) your map. 
 
-* How to explain things so that people understand.
+* [How to explain things](#fleshexplain) so that people understand.
 
-* How to give examples.
+* How to [give examples](#giving-examples).
 
-* How to edit yourself.
+* How to [edit yourself](#editing-yourself).
 
 And a few other topics.
 
@@ -34,7 +34,7 @@ Our style guide is [available here](style_guide.md).
 
 * If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
 
-* Technical writing should convey facts, not scatter confetti. If your sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
+* Technical writing should convey facts, not scatter confetti. If a sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
 
 ## Document Maps - Writing v Reading
 
@@ -48,7 +48,7 @@ We'll create a map, list, coggle or interpretive dance routine for each before w
 
 ### The Writing Map
 
-Before you start writing you should know what you'll need to cover. If you just improvise as you go along you'll forget things. So make a map:
+Before you start writing you should know what you'll need to cover. So make a map:
 
 1. You start at the most important point. It's like marking the X, then drawing the treasure map around it. With software, this will normally be all available features and their options, for example all of the options of a command-line tool.
 
@@ -62,8 +62,7 @@ Before you start writing you should know what you'll need to cover. If you just 
 
 6. If there's [additional material](#additional-material) you want, like FAQs and a problem solving section, now's the time to outline them. 
 
-7. Finally, [write an introduction](#Writing-an-Introduction). This should explain what your tool does and why I should bother using it. If you're writing for a new version of the tool, you'll address version differences either in the introduction or in the [section after the introduction](#version-differences).
-
+7. Finally, [write an introduction](#writing-an-Introduction). This should explain what your tool does and why I should bother using it. If you're writing for a new version of the tool, you'll address version differences either in the introduction or in the [section after the introduction](#version-differences).
 
 ### The Reading Map
 
@@ -109,7 +108,7 @@ You'll sometimes find that you want to mix things up a bit, like putting failure
 
 ### Organising the Features for Reading
 
-Please think carefully about the order if which you present features. There are two considerations here, and they often conflict:
+Please think carefully about the order in which you present features. There are two considerations here, and they often conflict:
 
 1. You can't start people off at the most complex features. The basis of Hello World is that we start people at the simple things and then work our way up. 
 
@@ -121,7 +120,7 @@ This is a balancing act, but if you look at programming guides you'll notice tha
 
 ### Scalability
 
-The nice thing about this method is that it's equally valid for all sizes of text. Sometimes you'll find that the map is enough (you'll just have to put it in reading order and add a short introduction), sometimes you'll find that it takes pages and pages to explain every single feature. Either way, you follow the same method from start to finish. 
+The nice thing about this method is that it's equally valid for all sizes of text. Sometimes you'll find that the map is enough (you'll just have to put it in reading order and add a short introduction). Sometimes you'll find that it takes pages and pages to explain every single feature. Either way, you follow the same method from start to finish. 
 
 It's also valid for different kinds of text, although it might at times lack elegance. So even if you're explaining a general concept like debugging, security or connectivity, you can think of every concept you're trying to get across as a feature or tool and work from there.
 
@@ -139,7 +138,7 @@ There is one thing I keep seeing in developers’ writing: all the dots, without
 
 There are two easy ways of spotting the dots:
 
-* The Why/So What method: my name for the Inductive Order approach. This is similar to the way Sherlock Holmes speaks: give a conclusion, then the facts proving it, one by one. You do this by asking yourself is “what’s the bottom line”, then “why”. Keep asking “why” until you’ve reached the basic concepts we all agree on. Invert that list, and you have a fully structured argument. Then ask “so what” so that you remember to do something with all the information you just gave me - like connect it to the next dot.
+* The Why/So What method: my name for the Inductive Order approach. This is similar to the way Sherlock Holmes speaks: give a conclusion, then the facts proving it, one by one. You do this by asking yourself “what’s the bottom line”, then “why”. Keep asking “why” until you’ve reached the basic concepts we all agree on. Invert that list, and you have a fully structured argument. Then ask “so what” so that you remember to do something with all the information you just gave me - like connect it to the next dot.
 
 * The Need/Meet method: everything is either something you need or a way to meet that need (I’m sorry if I sound like Ayn Rand). If you pair these out, you’ll end up understanding what everything in the story does.
 
@@ -149,7 +148,7 @@ Then there are several ways of organising the dots:
 
 * Increasing difficulty: start at the basics and move on. This works equally well in a single paragraph and in a full-fledged book. The Why/So What method builds this for you per dot, and sometimes even connects dots for you.
 
-* Problem and solution: this matches the need/meet method which provides a list of problems. You'll just have to put them in a logical order. What "logical" means changes depending on what you're writing.
+* Problem and solution: this matches the need/meet method, which provides a list of problems. You'll just have to put them in a logical order. What "logical" means changes depending on what you're writing.
 
 * Inverted pyramid: the way a newspaper article works. You start with a summary of the whole idea, and then you give out the facts in descending order of importance.
 
@@ -159,9 +158,9 @@ Last, please remember to clearly link the dots: causation, contrast or continuat
 
 ### Guessing at Prior Knowledge
 
-How much prior knowledge can you assume when writing? The easiest way to figure it out is to pretend you’re writing a chapter for a book. Where in the book will your chapter come? If it’s the very first chapter, you can’t assume any prior knowledge. If it’s in the middle, everything that would have come before can be assumed to be prior knowledge. 
+How much prior knowledge can you assume when writing? The easiest way to figure it out is to pretend you’re writing a chapter for a book. Where in the book will the chapter come? If it’s the very first chapter, you can’t assume any prior knowledge. If it’s in the middle, everything that would have come before can be assumed to be prior knowledge. 
 
-Of course, guessing how much your readers know is the easy bit (I mean, it's a guess - it's going to be wrong). Sticking to it when you write is much harder. Developers tend not to understand how little an agreed readership actually knows (if they knew this much, they wouldn't be reading), how unintuitive some of their intuitive leaps are, and how dense some of their "simple introductions" are. When writing, it's better to aim lower; readers can skim and skip much more easily than they can fill in the gaps.
+Of course, guessing how much your readers know is the easy bit (I mean, it's a guess - it's going to be wrong). Sticking to it when you write is much harder. Developers tend not to understand how little an agreed readership actually knows (if they knew this much, they wouldn't be reading), how unintuitive some of the developers' intuitive leaps are, and how dense some of their "simple introductions" are. When writing, it's better to aim lower; readers can skim and skip much more easily than they can fill in the gaps.
 
 ### Technobabble
 
@@ -169,7 +168,7 @@ Look, you deal with hardware, so maybe you'll find a good reason to reverse the 
 
 You have to notice when you’re throwing out odd bits of vocabulary as if they’re common knowledge. Some may very well be; others will not. Usually the problem is that within the context of a sentence, you don’t stop and think about all of the words you’re using and how many of them don't make sense to anyone who doesn't already know the material. You certainly don't think about the possibility that a google search will bring 100 irrelevant results, so at least do google it for the reader.
 
-On first use, give the meaning of initials, then the initials in parentheses. For example, it’s Bluetooth Low Energy (BLE), not BLE (Bluetooth Low Energy). Don’t bother doing this with things that are more commonly known by their initials, like BBC. You can put the full term in italics if you like: Bluetooth Low Energy (BLE).
+On first use, give the meaning of initials, then the initials in parentheses. For example, it’s Bluetooth Low Energy (BLE), not BLE (Bluetooth Low Energy). Don’t bother doing this with things that are more commonly known by their initials, like BBC. You can put the full term in italics if you like: *Bluetooth Low Energy* (BLE).
 
 ### Writing an Instruction
 
@@ -177,7 +176,11 @@ If you're giving a one-step instruction, you just write "x to y". So:
 
 > "Select Compile > Update Docs to regenerate the program documentation".
 
-If you have more than one step, start with the expected result, then the steps as a numbered list. So it's:
+Or "for y, do x":
+
+> "To regenerate the program documentation, select Compile > Update Docs".
+
+If you have more than one step, start with the expected result, then the steps as a numbered list ("for y, do x"). So it's:
 
 > "To create a new program:
 
@@ -186,6 +189,12 @@ If you have more than one step, start with the expected result, then the steps a
 > 2. Another action.
 
 > 3. You get the point."
+
+Fun fact (it's not a fact, just a preference): we use bullets if a list can come in any order and numbers if the list can only come in the order in which it's presented. Instructions will therefore tend to be numbered.
+
+It's better to tell people what they should do, not what they shouldn't do. If you're worried about damage to hardware: add a warning, then be as negative as you want. Note that warnings are not a step in the instructions; they're a formatted paragraph before all steps or before the relevant step. The formatting should stand out from the list, but not be too jarring.
+
+### Naming Things 
 
 When giving keyboard shortcuts:
 
@@ -199,11 +208,7 @@ When talking about on-screen buttons:
 
 * Use “click” for something in a GUI (like the compile button).
 
-* If the button has a name (written on it) you can refer to it directly (with the capital letter, and you can also use bold font if you want): “click Compile”. But if there’s just an icon, it’s best to use a few more words: “click the search button” (no capital, and using an article, because there’s no name for the button).
-
-Fun fact (it's not a fact, just a preference): we use bullets if a list can come in any order and numbers if the list can only come in the order in which it's presented. Instructions will therefore tend to be numbered.
-
-It's better to tell people what they should do, not what they shouldn't do. If you're worried about damage to hardware: add a warning, then be as negative as you want. Note that warnings are not a step in the instructions; they're a formatted paragraph before all steps or before the relevant step. The formatting should stand out from the list, but not be too jarring.
+* If the button has a name (written on it) you can refer to it directly with a capital letter, and you can also use bold font if you want: “click **Compile**”. But if there’s just an icon, it’s best to use a few more words: “click the search button” (no capital, and using an article, because there’s no name for the button).
 
 ### Screen Caps
 
@@ -221,7 +226,7 @@ Our basic assumption is that readers should be able to perform the examples them
 
 * Tell me about things like long processing times (or I'll think I did something wrong) and questions I'll need to answer (and what each possible answer means).
 
-* Don't dump some new tool on me at step 17. Tell me before you start the example what I'll need to complete it myself.
+* Don't dump some new tool on me at step 17. Tell me before you start the example what I'll need installed.
 
 * If you find that you're giving me a lot of background information in one of the steps, it probably means your original explanation omitted too much.
 
@@ -231,7 +236,6 @@ Our basic assumption is that readers should be able to perform the examples them
 
 * Don't forget the screen caps.
 
-
 ## Additional Material
 
 Additional material can be problem solving, FAQ, links to other resources and anything that you couldn't shove into the main body of the text. You don't have to include it, but if you do it's important you don't treat it as a catch-all; you should put stuff within the main body if at all possible, resorting to the additional material section only for things that cannot possibly fit anywhere else. 
@@ -240,13 +244,13 @@ FAQs are often a repetition of the main body. In a sense they're highlights, rat
 
 ## Writing an Introduction
 
-An introduction has two main jobs: tell me what your tool does, and tell me why I should use it (instead of some other tool). To do its job, an introduction will usually cover:
+An introduction has two main jobs: tell me what your tool does, and tell me why I should use it (instead of some other tool). To do all that, an introduction will usually cover:
 
 1. What the tool is supposed to do.
 
 2. How it manages to do it.
 
-3. Perhaps a couple of features, to highlight the awesome capabilities of your tool.
+3. Perhaps a couple of features, to highlight the tool's awesome capabilities.
 
 4. Sometimes version differences (see next section).
 
@@ -258,14 +262,13 @@ If this isn't the first version of the tool, it's polite to highlight the differ
 
 * If there are many differences, put them in their own section right after the introduction. 
 
-Wherever you put the differences, it's helpful to readers if you flag them with "what's new in version x" or something similar. Readers who are already familiar with your tool are fishing for the version differences, they don't need the full guide.
+Wherever you put the differences, it's helpful to readers if you flag them with "what's new in version x" or something similar. Readers who are already familiar with your tool are fishing for the version differences - they don't need the full guide.
 
 ## Cross Referencing
 
 It's helpful to cross reference - with links. Do note that the information in your document should be introduced in the order in which a reader is expected to learn it; readers shouldn't have to jump between sections to put the story together. Cross-references should therefore link back (to things the reader is expected to have read already), not forward. However, there are times when forward referencing is correct:
 
-
-* In an introduction, where it allows people to skip to the interesting bits (it functions like a table of contents).
+* In an introduction, where it allows people to skip to the interesting bits (it functions like a table of contents). This is true for all introductions - for the whole doc, for a chapter, for a section or set of instructions - anything.
 
 * When you're telling people "if x then you can skip to y", giving knowledgeable readers a handy bypass of the beginners' stuff.
 
@@ -287,7 +290,6 @@ This is one of the hardest things you have to do in writing. Editing yourself re
 
 ### Editing a Complete Text
 
-
 Some tips:
 
 * Read very slowly. This will help you spot typos that you gloss over when you're reading quickly. It will also help you get a feel for how your text reads to slower readers (like many non-native readers).
@@ -296,7 +298,7 @@ Some tips:
 
 * Try to spot leaps of knowledge. Where did you require more information than the reader is assumed to have? Where did you think a connection between two concepts you introduced is intuitive? It isn't.
 
-* Try to spot ambiguous sentences. You're writing in English, so you should be able to find plenty of them. But it's hard work to find them in your own writing, since you know what the sentence should mean so you'll not fall for the ambiguity. You have to force yourself to check if your word choice, or word order, can give the sentence two meanings that are not clarified by the context.
+* Try to spot ambiguous sentences. You're writing in English, so you should be able to find plenty of them. But it's hard work to find them in your own writing, since you know what the sentence should mean so you'll not fall for the ambiguity. You have to force yourself to check if your word choice, or word order, can give the sentence two meanings that are not clarified by the context. You can read more about this in our [style guide](style_guide.md).
 
 ### Editing as You Write
 
@@ -310,7 +312,7 @@ The above paragraph, by the way, is a good example of how *not* to explain thing
 
 ## Examples (Good and Bad)
 
-Example time! Some of these are from this guide, some from the BLE Intros.
+Example time! Some of these are from this guide, some from the [BLE Intros](http://docs.mbed.org/docs/ble-intros/en/latest/).
 
 ### Example One
 
@@ -320,7 +322,7 @@ This text is quite messy. The main point is near the end, the thing you shouldn'
 
 > "The information in your document should be introduced in the order in which a reader is expected to learn it; readers shouldn't have to jump between sections to put the story together. Cross-references should therefore link back (to things the reader is expected to have read already), not forward. However, there are times when forward referencing is correct:
 
-> 1. In an introduction, where it allows people to skip to the interesting bits (it functions like a table of contents).
+> 1. In an introduction, where it allows people to skip to the interesting bits (it functions like a table of contents). This is true for all introductions - for the whole doc, for a chapter, for a section or set of instructions - anything.
 
 > 2. When you're telling people "if you're already familiar with x, skip to y", giving knowledgeable readers a handy bypass of the beginners' stuff.
 
@@ -368,11 +370,11 @@ This is from an intro to non-developers, so I should explain what loops and cond
 
 ### Example Four
 
-> "Usually, _Handle Value Notifications/Indications_ are used by the server to send updated values to a subscribed client or for signalling a client that a subscribed read attribute has been updated. Because _Handle Value Notifications_ can carry the same payload as any other BLE message, is sent at the server’s discretion, and doesn't generate a response from the client, _Handle Value Notifications_ can be repurposed for transmitting low latency data from server to client."
+> "Usually, _Handle Value Notifications/Indications_ are used by the server to send updated values to a subscribed client or for signaling a client that a subscribed read attribute has been updated. Because _Handle Value Notifications_ can carry the same payload as any other BLE message, is sent at the server’s discretion, and doesn't generate a response from the client, _Handle Value Notifications_ can be repurposed for transmitting low latency data from server to client."
 
 This is the edited version:
 
-> "Usually, the server uses ``_Handle Value Notifications/Indications_``  to send updated values to a subscribed client, or for signalling a client that a subscribed read attribute has been updated. But we can repurpose ``_Handle Value Notifications_`` for transmitting low latency data from the server to the client because ``_Handle Value Notifications_``:
+> "Usually, the server uses ``_Handle Value Notifications/Indications_``  to send updated values to a subscribed client, or for signaling a client that a subscribed read attribute has been updated. But we can repurpose ``_Handle Value Notifications_`` for transmitting low latency data from the server to the client because ``_Handle Value Notifications_``:
 
 > * Can carry the same payload as any other BLE message.
 
@@ -386,7 +388,7 @@ The two main changes are a move from passive to active voice, and bullet points 
 
 Got writer's block? Trying to edit yourself but keep reverting back to the original? Not to worry - generations of writers have successfully dealt with these same issues with little more than these helpful tips (and alcohol, chain smoking and criminal behaviour):
 
-* Look away from the text for a while - work on something else, take a walk, make a cup of tea.
+* Look away from the text for a while: work on something else, take a walk, make a cup of tea.
 
 * Put bits of your text through Google Translate a few times. It should give you an interesting view of it (and a good giggle).
 
@@ -399,6 +401,7 @@ Got writer's block? Trying to edit yourself but keep reverting back to the origi
 * Spit it out, no matter how bad it is. You can edit later. Note: I don't approve of this method, because I think a first draft stays with you forever; it influences all future edits, no matter how bad it is.
 
 ## A Final Word of Warning
+
 Do not leave your own notes in the text when you publish it, especially if you tend to be less than entirely polite when talking to yourself (and your collaborators). Always preface them with the same bit of text, like TBD or WTF, and do a search on it before publishing.
 
 ______
