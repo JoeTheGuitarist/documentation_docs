@@ -12,9 +12,15 @@ The style guide has two parts:
 
 The trick with a style guide isn’t to remember the right way of using all of these - it’s to remember that you need to look it up.
 
-# About Writing
+If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
 
-This is not a full writing guide. It doesn’t tell you how to write a full text, but where to put a comma and exactly where the rules of Latin grammar belong (spoiler: in Latin texts. There, now you don’t need to read the rest of this). However, since you’re not writers, I’ve written a few words to get you on your way:
+# One Rule to Rule Them All
+
+The underlying rule of this style guide is "be clear", and all** other rules are its elaborations or symptoms.
+
+The first elaboration of this rule is: be clear to non-English speakers. These are people who don't use English in real life, and they don't reach a post-graduate command of it. I'm saying "post-graduate" because that's the level many of you write in. Take it down a notch. You can use the [Hemingway Editor application](http://www.hemingwayapp.com/) to practice. Aim for high school or lower.
+
+The main symptoms of the clarity rule are:
 
 * Don’t use more words than you need - some poor soul has to read them all.
 
@@ -22,12 +28,15 @@ This is not a full writing guide. It doesn’t tell you how to write a full text
 
 * Don’t let your sentences run away from you - keep them short and simple.
 
-* If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
+* Technical writing should convey facts, not scatter confetti. If a sentence doesn't include at least one fact, it's probably a waste of the reader's time.
 
-* Technical writing should convey facts, not scatter confetti. If a sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
+* Be consistent. Don't use the same word to refer to different things.
 
-* If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
+What the clarity rule *doesn't* demand is obeying odd grammar rules whose sole justification is "Someone said so 200 years ago". If a rule doesn't make your writing clearer, you're free to doubt it. This applies to most Latin-based rules like never ending a sentence with a preposition and not splitting the infinitives. It also applies to many arguments about punctuation. 
 
+One last comment: If you have a sense of humour - use it. In a pinch, [link](http://xkcd.com/1348/) [to](http://xkcd.com/195/) [xkcd](http://xkcd.com/386/).
+
+** Okay, most. Some rules are about aesthetics.
 ______
 
 <a name="english">
@@ -181,6 +190,28 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 	* When you're referencing steps, it's in numerals, not words (step 2, step 14). I often get this wrong.
 	
 * Thanks to the Economist, we know that [last year is 2014](http://www.economist.com/styleguide/l#node-21534682). If you mean the 12 months up to now, you mean past year. This applies to month and week, too. Generally, it’s easier to give an exact date (or range of dates), so that your dates don’t become outdated.
+
+### It's its IT's ITs List
+
+I never thought it would come to this, but I'm going to explain the difference between it's and its:
+
+* It's: short of "it is". 
+
+* Its: possessive form of "it".
+
+* IT's: possessive form of the IT department.
+
+* ITs: many people from the IT department.
+
+And while we're at it:
+
+* You're: short for "you are".
+
+* Your: possessive form of "you".
+
+* Yous: plural form of you in some dialects; please don't use it, because it's non-standard to a degree that will confuse non-native speakers.
+
+* You is: singular form of you in some dialects. Again, confusing for non-native speakers.
 
 ### Now I'm Really Nitpicking
 
