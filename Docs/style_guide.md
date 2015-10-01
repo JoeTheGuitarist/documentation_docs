@@ -227,6 +227,8 @@ And while we're at it:
 
 * And it’s “any more”, not “anymore”.
 
+* "Should" is a dangerous word; some people treat it as "have to" and some as "if you can be bothered". If it has to happen, say so.
+
 * Some readers expect "once" to mean "only one time". Use "when" if you mean "as soon as" (please don't use "as soon as" - it creates expectations of prompt results).
 
 * Many words that time-stamp your sentence (temporal words) are unnecessary or even confusing.   
