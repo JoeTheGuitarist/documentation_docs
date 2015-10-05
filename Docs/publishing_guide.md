@@ -1,6 +1,6 @@
 # How to Publish mbed Documentation
 
-This guide is intended for developers who are trying to add documentation to their projects. It details the tools we use (GitHub, docs.mbed.org and Markdown) and the scope of documentation.
+This guide is intended for developers who are trying to add documentation to their projects. It details the tools we use (GitHub, docs.mbed.com and Markdown) and the scope of documentation.
 
 For advice about writing your documentation, see [the writing guide](writing_guide.md).
 
@@ -30,11 +30,11 @@ Our documentation is written in Markdown and lives on GitHub:
 
 3. Feel free to create more than one MD file. You should probably have readme.md as the main, though, cause most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 
-## docs.mbed.org
+## docs.mbed.com
 
-Documentation living on GitHub can be published on [docs.mbed.org](http://docs.mbed.org) using your mbed account:
+Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
-- Log into docs.mbed.org with your **developer.mbed.org** credentials. You'll be taken to your dashboard.
+- Log into docs.mbed.com with your **developer.mbed.org** credentials. You'll be taken to your dashboard.
 
 <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](/Images/DocsLogin.png)</span>
 
@@ -61,7 +61,7 @@ Documentation living on GitHub can be published on [docs.mbed.org](http://docs.m
 * When the build is done, you can click **View Docs** to see your project. 
 
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">
-**Tip**: docs.mbed.org uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about more options.</span>
+**Tip**: docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about more options.</span>
 
 ______
 Copyright © 2015 ARM Ltd. All rights reserved.
