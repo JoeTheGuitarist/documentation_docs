@@ -465,8 +465,6 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * Read/write, despite my habit of separating them.
 
-* In ARM documentation, PC stands for "program counter", not personal computer. So use either "Windows workstation" or "Linux workstation".
-
 * Silicon. If you add an E at the end, you’re in the wrong industry (you could be earning loads more).
 
 * sim, not SIM. Many people object to this; go with SIM if you prefer.
