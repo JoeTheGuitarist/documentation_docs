@@ -113,9 +113,11 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * For the a/an before H or abbreviations issue, I'll just [quote the Guardian](http://www.theguardian.com/guardian-observer-style-guide-a): "Use an before a silent H: an heir, an hour, an honest politician, an honorary consul; use a before an aspirated H: a hero, a hotel, a historian (but don't change a direct quote if the speaker says, for example, "an historic"). With abbreviations, be guided by pronunciation: eg an LSE student." This is one of the many ways in which it's impossible to learn English until you know English.
 
-* It's OK to talk to the reader: "you can select your..." etc. Never use the third person; you'll sound like a creepy lawyer.
+* Talk to the reader: "you can select your..." etc. Never use the third person; you'll sound like a creepy lawyer.
 
-* You can use “we” instead of “you”, if you like. “We” is seen as friendlier, as if you’re going through this with the reader, rather than watching from the sidelines.
+* You can use “we” instead of “you”, if you like (but I prefer "you" - it prevents confusion). “We” is seen as friendlier, as if you’re going through this with the reader, rather than watching from the sidelines.
+
+* In instructions, processes and so on use the present tense whenever possible. “Click X. A window opens.” and not “A window will open”. 
 
 * Try to use positive rather than negative sentences. Users (even when they’re reading) expect positive actions (“do x”, not “don't do y”) and might work based on that expectation (without bothering to read the whole sentence, of course).
 
@@ -264,6 +266,8 @@ And while we're at it:
 * Identical with (not to).
 
 * Password (one word).
+
+* Command-line (two words with a hyphen).
 
 * Generally, “starting with” is for when the order doesn’t actually matter, we just pick a starting point at random. “Starting from” implies that there is a logical order. So with versions, we might expect it to be “starting from”. Probably.
 
