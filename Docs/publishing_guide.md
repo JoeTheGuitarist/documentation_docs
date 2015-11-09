@@ -28,15 +28,17 @@ Our documentation is written in Markdown and lives on GitHub:
 
 	* Create a directory for your file (https://github.com/ARMmbed/repo/doc/readme.md). 
 
-3. Feel free to create more than one MD file. You should probably have readme.md as the main, though, cause most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
+3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 
 ## docs.mbed.com
 
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
-- Log into docs.mbed.com with your **developer.mbed.org** credentials. You'll be taken to your dashboard.
+- Log into docs.mbed.com with your **developer.mbed.org** credentials.
 
 <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](Images/DocsLogin.png)</span>
+
+- You are taken to your dashboard.
 
 - Click **Import a Project**.
 
@@ -52,7 +54,7 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 - Review the other options. The default values may well be all you need.
 
-- Click **Next**. You'll be taken to the project page.
+- Click **Next**. You are taken to the project page.
 
 - The project tries to build a first version as soon as it's created. Click **Builds** to see the build's progress. 
 
