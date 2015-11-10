@@ -5,5 +5,7 @@ docs_dir: Docs
 pages:
 - ['index.md','Introduction to the Documentation Guides']
 - ['publishing_guide.md', 'Guides', 'Publishing Guide']
+- ['style_guide.md', 'Guides', 'Style Guide']
+- ['writing_guide.md', 'Guides', 'Writing Guide']
 
 extra_css: ['FullCSS.css']
