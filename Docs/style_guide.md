@@ -191,15 +191,13 @@ The objection to passive constructions is not as mental as you think. A passive 
 
 Consider a situation where you're writing an application that allows your device to talk to some third-party device, and each device has control over part of the relationship. If your API documentation says "x can be controled", that doesn't give a good idea of which device controls it. Can you control it - or can the other device reject your attempt at control?
 
-So:
+So use active rather than passive constructions. "You can x", not "x can be". But use the passive when:
 
-* Use active rather than passive constructions. "You can x", not "x can be". But use the passive when:
+* The active sounds like it's shouting at the reader.
 
-	* The active sounds like it's shouting at the reader.
+* There is no specific entity performing the action, so you don't have a pronoun around which to construct an active sentence.
 
-	* There is no specific entity performing the action, so you don't have a pronoun around which to construct an active sentence.
-
-	* If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
+* If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
 
 
 ### It's its IT's ITs List
