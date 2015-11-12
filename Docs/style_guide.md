@@ -121,14 +121,6 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * Try to use positive rather than negative sentences. Users (even when they’re reading) expect positive actions (“do x”, not “don't do y”) and might work based on that expectation (without bothering to read the whole sentence, of course).
 
-* Use active rather than passive constructions. "You can x", not "x can be". But use the passive when:
-
-	* The active sounds like it's shouting at the reader.
-
-	* There is no specific entity performing the action, so you don't have a pronoun around which to construct an active sentence.
-
-	* If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
-
 * When texts are related (such as bulleted lists), try to make them very similar, so that the differences stand out; this helps readers scan the text and pick out the differences, rather than read the whole text. If part of the text of all options is identical, it should be moved to the section label, rather than be used again and again in every option.
 
 * I don’t have many pet peeves, but the “and/or” construction drives me nuts (using just / drives me even crazier). In 99.99% of the cases (no, I didn’t count) one of them is enough. If not, English has been kind enough to give you plenty of nice ways to indicate choices and constraints. The point is that people should know for certain whether you meant "or", "and" or "one or both", and the stroke leaves too much room for error.
@@ -192,6 +184,23 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 	* When you're referencing steps, it's in numerals, not words (step 2, step 14). I often get this wrong.
 	
 * Thanks to the Economist, we know that [last year is 2014](http://www.economist.com/styleguide/l#node-21534682). If you mean the 12 months up to now, you mean past year. This applies to month and week, too. Generally, it’s easier to give an exact date (or range of dates), so that your dates don’t become outdated.
+
+### Passive and active
+
+The objection to passive constructions is not as mental as you think. A passive sentence can make perfectly resonable developers think they don't have control of the process, when in fact you were trying to tell them exactly the opposite. 
+
+Consider a situation where you're writing an application that allows your device to talk to some third-party device, and each device has control over part of the relationship. If your API documentation says "x can be controled", that doesn't give a good idea of which device controls it. Can you control it - or can the other device reject your attempt at control?
+
+So:
+
+* Use active rather than passive constructions. "You can x", not "x can be". But use the passive when:
+
+	* The active sounds like it's shouting at the reader.
+
+	* There is no specific entity performing the action, so you don't have a pronoun around which to construct an active sentence.
+
+	* If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
+
 
 ### It's its IT's ITs List
 
