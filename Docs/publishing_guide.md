@@ -67,5 +67,11 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">
 **Tip**: docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about more options.</span>
 
+## Doxygen
+
+docs.mbed will try to build Doxygen for your repository along with the regular documentation. You can follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
+
+To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
+
 ______
 Copyright © 2015 ARM Ltd. All rights reserved.
