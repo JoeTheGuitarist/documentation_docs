@@ -1,10 +1,10 @@
-# How to Publish mbed Documentation
+# How to publish mbed documentation
 
 This guide is intended for developers who are trying to add documentation to their projects. It details the tools we use (GitHub, docs.mbed.com and Markdown) and the scope of documentation.
 
 For advice about writing your documentation, see [the writing guide](writing_guide.md).
 
-## What to Publish
+## What to publish
 
 Documentation about:
 
@@ -30,7 +30,7 @@ Our documentation is written in Markdown and lives on GitHub:
 
 3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 
-## docs.mbed.com
+## Publishing on docs.mbed.com
 
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
