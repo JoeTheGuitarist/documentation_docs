@@ -1,4 +1,4 @@
-# How to Write a User's Guide
+# How to Write a user guide
 
 ## Introduction
 
@@ -24,7 +24,7 @@ For advice about publishing your documentation, see [the publishing guide](publi
 
 Our style guide is [available here](style_guide.md).
 
-## General Writing Tips
+## General writing tips
 
 * Don’t use more words than you need - some poor soul has to read them all.
 
@@ -36,7 +36,7 @@ Our style guide is [available here](style_guide.md).
 
 * Technical writing should convey facts, not scatter confetti. If a sentence doesn't include at least one fact, it's probably a waste of the reader's time. Unless it's a joke, because giving people a break and a reason to smile helps them deal with text.
 
-## Document Maps - Writing v Reading
+## Document maps - writing v reading
 
 Here is an important distinction: where you start writing and where the user starts reading are not the same place. The user will start at the beginning. You will not. This means you'll need to know:
 
@@ -46,7 +46,7 @@ Here is an important distinction: where you start writing and where the user sta
 
 We'll create a map, list, coggle or interpretive dance routine for each before we start working. If we just improvise as we go along we'll get lost, forget things, double-up and generally take three times as long as we need to.
 
-### The Writing Map
+### The writing map
 
 Before you start writing you should know what you'll need to cover. So make a map:
 
@@ -64,7 +64,7 @@ Before you start writing you should know what you'll need to cover. So make a ma
 
 7. Finally, [write an introduction](#writing-an-Introduction). This should explain what your tool does and why I should bother using it. If you're writing for a new version of the tool, you'll address version differences either in the introduction or in the [section after the introduction](#version-differences).
 
-### The Reading Map
+### The reading map
 
 When you're done writing, please don't forget to put the text in reading order. For example, it makes very little sense to give a full explanation of all commands before bothering to explain what the general purpose of the tool is. A general guideline:
 
@@ -81,7 +81,7 @@ When you're done writing, please don't forget to put the text in reading order. 
 6. Additional materials.
 
 <a name="fleshplan">
-## How to Flesh Out - the Plan
+## How to flesh out - the plan
 </a>
 
 Now you have a map of features and their sub-functions or options. Assuming it's not enough (don't assume - for [some things it may well do](#Scalability)), how do you turn that map into a text? You measure every feature on your list against a checklist.
@@ -106,7 +106,7 @@ You may have noticed by now that I'm a huge fan of working to a list. You should
 
 You'll sometimes find that you want to mix things up a bit, like putting failure scenarios with the sub-functions that generate them. This isn't necessarily a bad idea, but it isn't necessarily a good one, either. If you mix things up too much you create something that's hard to follow. Pulp Fiction isn't a good outline for a user's guide.
 
-### Organising the Features for Reading
+### Organising the features for reading
 
 Please think carefully about the order in which you present features. There are two considerations here, and they often conflict:
 
@@ -127,12 +127,12 @@ It's also valid for different kinds of text, although it might at times lack ele
 How do you know how detailed your docs should be? Some of it is gut feeling, some of it is common sense (it's a fine line between the two). Either way: write it out, give it to someone, and ask them if they understood and managed to follow it and use the tool. If they didn't, it was either too short or too messy (or both). There is a third option, but then it's your fault for picking that person as your doc's tester, so either way you learned a lesson.
 
 <a name="fleshexplain">
-## How to Flesh Out - Explaining Things
+## How to flesh out - explaining things
 </a>
 
 You can start [here](http://arkinwriting.com/2014/02/21/dont-dumb-it-down-layer-it-up-writing-tips-for-engineers/).
 
-### Connecting the Dots
+### Connecting the dots
 
 There is one thing I keep seeing in developers’ writing: all the dots, without a single line to connect them. You need to do three things: list your ideas, put them in a readable order, and specify whether they are linked by causation, contrast or continuation. So don’t write “A, B, C, D, E” (and certainly not "E, C, A2, A3, B, A1, D"). Write “A and B, therefore C. Oh, and D, therefore not E”.
 
@@ -156,7 +156,7 @@ Don’t mix and match ideas, explaining bits and pieces of each in a random orde
 
 Last, please remember to clearly link the dots: causation, contrast or continuation.
 
-### Guessing at Prior Knowledge
+### Guessing at prior knowledge
 
 How much prior knowledge can you assume when writing? The easiest way to figure it out is to pretend you’re writing a chapter for a book. Where in the book will the chapter come? If it’s the very first chapter, you can’t assume any prior knowledge. If it’s in the middle, everything that would have come before can be assumed to be prior knowledge. 
 
@@ -170,7 +170,7 @@ You have to notice when you’re throwing out odd bits of vocabulary as if they�
 
 On first use, give the meaning of initials, then the initials in parentheses. For example, it’s Bluetooth Low Energy (BLE), not BLE (Bluetooth Low Energy). Don’t bother doing this with things that are more commonly known by their initials, like BBC. You can put the full term in italics if you like: *Bluetooth Low Energy* (BLE).
 
-### Writing an Instruction
+### Writing an instruction
 
 If you're giving a one-step instruction, you just write "x to y". So:
 
@@ -194,7 +194,7 @@ Fun fact (it's not a fact, just a preference): we use bullets if a list can come
 
 It's better to tell people what they should do, not what they shouldn't do. If you're worried about damage to hardware: add a warning, then be as negative as you want. Note that warnings are not a step in the instructions; they're a formatted paragraph before all steps or before the relevant step. The formatting should stand out from the list, but not be too jarring.
 
-### Naming Things 
+### Naming things 
 
 When giving keyboard shortcuts:
 
@@ -210,11 +210,11 @@ When talking about on-screen buttons:
 
 * If the button has a name (written on it) you can refer to it directly with a capital letter, and you can also use bold font if you want: “click **Compile**”. But if there’s just an icon, it’s best to use a few more words: “click the search button” (no capital, and using an article, because there’s no name for the button).
 
-### Screen Caps
+### Screen caps
 
 Go [here](http://arkinwriting.com/2014/02/26/screen-cap-tips-for-beginners/).
 
-## Giving Examples
+## Giving examples
 
 Our basic assumption is that readers should be able to perform the examples themselves, so we should provide a full process, not just a pretty result. From this assumption we reach the following wild conclusions:
 
@@ -236,13 +236,13 @@ Our basic assumption is that readers should be able to perform the examples them
 
 * Don't forget the screen caps.
 
-## Additional Material
+## Additional material
 
 Additional material can be problem solving, FAQ, links to other resources and anything that you couldn't shove into the main body of the text. You don't have to include it, but if you do it's important you don't treat it as a catch-all; you should put stuff within the main body if at all possible, resorting to the additional material section only for things that cannot possibly fit anywhere else. 
 
 FAQs are often a repetition of the main body. In a sense they're highlights, rather than new information. That's fine. They're also often a dumping ground for things you don't want to say in the main body because you're mildly embarrassed. That, too, is fine.
 
-## Writing an Introduction
+## Writing an introduction
 
 An introduction has two main jobs: tell me what your tool does, and tell me why I should use it (instead of some other tool). To do all that, an introduction will usually cover:
 
@@ -254,7 +254,7 @@ An introduction has two main jobs: tell me what your tool does, and tell me why 
 
 4. Sometimes version differences (see next section).
 
-## Version Differences
+## Version differences
 
 If this isn't the first version of the tool, it's polite to highlight the differences between the current version and the previous one:
 
@@ -264,7 +264,7 @@ If this isn't the first version of the tool, it's polite to highlight the differ
 
 Wherever you put the differences, it's helpful to readers if you flag them with "what's new in version x" or something similar. Readers who are already familiar with your tool are fishing for the version differences - they don't need the full guide.
 
-## Cross Referencing
+## Cross referencing
 
 It's helpful to cross reference - with links. Do note that the information in your document should be introduced in the order in which a reader is expected to learn it; readers shouldn't have to jump between sections to put the story together. Cross-references should therefore link back (to things the reader is expected to have read already), not forward. However, there are times when forward referencing is correct:
 
@@ -284,11 +284,11 @@ A couple of notes:
 
 * It's good to introduce (at least as a list) all the sections of a guide in the introduction. Link to them.
 
-## Editing Yourself
+## Editing yourself
 
 This is one of the hardest things you have to do in writing. Editing yourself requires spotting your own mistakes, but since you know what you meant to say it's hard to realise you didn't actually say it. 
 
-### Editing a Complete Text
+### Editing a complete text
 
 Some tips:
 
@@ -300,21 +300,21 @@ Some tips:
 
 * Try to spot ambiguous sentences. You're writing in English, so you should be able to find plenty of them. But it's hard work to find them in your own writing, since you know what the sentence should mean so you'll not fall for the ambiguity. You have to force yourself to check if your word choice, or word order, can give the sentence two meanings that are not clarified by the context. You can read more about this in our [style guide](style_guide.md).
 
-### Editing as You Write
+### Editing as you write
 
 It's the same as editing when you're done, only less effective. In general, the longer the break between writing and editing, the better the edit.
 
-### Backwards Editing
+### Backwards editing
 
 Anyone who writes a long document without ever going back and revising what he has already written is not paying attention. But - try to make a note of it and get back to it later, not when you think about it, because you'll lose the thread that made you think about it in the first place. 
 
 The above paragraph, by the way, is a good example of how *not* to explain things.
 
-## Examples (Good and Bad)
+## Examples (good and bad)
 
 Example time! Some of these are from this guide, some from the [BLE Intros](http://docs.mbed.org/docs/ble-intros/en/latest/).
 
-### Example One
+### Example one
 
 > "Introductions (to the document or sections in the document) are the only places that can link ahead, unless you're specifically telling people "you can skip this if…". Everything else should only link to something that came before it (and that the user is therefore expected to have read). Otherwise, it's likely that you're telling readers that information that's essential to understand now is explained at a later point in the document. This is a good hint that your document is not organised logically. Do not make the readers jump around."
 
@@ -332,7 +332,7 @@ This text is quite messy. The main point is near the end, the thing you shouldn'
 
 > 5. If you're pointing to a figure in the next page."
 
-### Example Two
+### Example two
 
 > "There are two ways to treat names of functions, APIs etc: as proper nouns or as common nouns. I tend to go with treating them as proper nouns, because a proper noun is one that names a specific thing, and it doesn’t get more specific than BLE_API, does it? So we “use BLE_API”, not “use the BLE_API” (but you can say “we use the BLE API, not the WiFi API”, and you’ll note the missing underscore - we’re not using the real names here).
 
@@ -348,7 +348,7 @@ This is, again, a mess. Why isn't the rule fully explained before an example is 
 
 This is now much longer, but it's actually covering only the ground covered by the original example - it just does it with all the details that the original example glossed over.
 
-### Example Three
+### Example three
 
 > "Before saying what the program should do (the function), we tell it when to do it. We've created a WHILE loop that will keep going so long as the condition it's checking returns the value TRUE. For the function to stop running, then, the condition it's checking will have to become false."
 
@@ -368,7 +368,7 @@ This is from an intro to non-developers, so I should explain what loops and cond
 
 > If the value of ``triggerSensorPolling`` becomes FALSE, the condition will fail and the function won't run any more. This is called "exiting the loop"."
 
-### Example Four
+### Example four
 
 > "Usually, _Handle Value Notifications/Indications_ are used by the server to send updated values to a subscribed client or for signaling a client that a subscribed read attribute has been updated. Because _Handle Value Notifications_ can carry the same payload as any other BLE message, is sent at the server’s discretion, and doesn't generate a response from the client, _Handle Value Notifications_ can be repurposed for transmitting low latency data from server to client."
 
@@ -384,7 +384,7 @@ This is the edited version:
 
 The two main changes are a move from passive to active voice, and bullet points instead of a long sentence. You'll also note that I moved the result ("we can repurpose…") ahead of the cause ("because it..."). This is an easier structure to follow.
 
-## Writer's Blocks Aren't Just for Fiction Writers
+## Writer's blocks aren't just for fiction writers
 
 Got writer's block? Trying to edit yourself but keep reverting back to the original? Not to worry - generations of writers have successfully dealt with these same issues with little more than these helpful tips (and alcohol, chain smoking and criminal behaviour):
 
@@ -400,7 +400,7 @@ Got writer's block? Trying to edit yourself but keep reverting back to the origi
 
 * Spit it out, no matter how bad it is. You can edit later. Note: I don't approve of this method, because I think a first draft stays with you forever; it influences all future edits, no matter how bad it is.
 
-## A Final Word of Warning
+## A final word of warning
 
 Do not leave your own notes in the text when you publish it, especially if you tend to be less than entirely polite when talking to yourself (and your collaborators). Always preface them with the same bit of text, like TBD or WTF, and do a search on it before publishing.
 
