@@ -1,4 +1,4 @@
-# About the Style Guide
+# About the style guide
 
 A style guide is a collection of fussy complaints about the way people write. It exists because, [in this description of reality, I am the pragmatist](http://www.smbc-comics.com/index.php?id=3761). It covers some vocabulary, grammar, punctuation and style choices that are either good or bad (mostly bad). It is by no means a full guide to the English language, but it should help you think about how you use it and avoid some of the more common mistakes.
 
@@ -14,7 +14,7 @@ The trick with a style guide isn’t to remember the right way of using all of t
 
 If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
 
-# One Rule to Rule Them All
+# The short version
 
 The underlying rule of this style guide is "be clear", and all** other rules are its elaborations or symptoms.
 
@@ -45,7 +45,7 @@ ______
 
 Brilliant language, I love it. But it’s completely bonkers.
 
-## Learning from Our Betters
+## Learning from our betters
 
 If you’re not sure, follow this emergency procedure:
 
@@ -57,7 +57,7 @@ If you’re not sure, follow this emergency procedure:
 
 4. When all else fails, ask Google. Try to remain with fairly recent sources; you don’t want Advice from the Period of English when all Nouns got a Capital.
 
-## A Word About American v British English
+## A word about American v British English
 
 ARM uses the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/contents) and [Merriam-Webster's Collegiate Dictionary](http://www.merriam-webster.com/). Both of these are in American English (or International English, which follows the American spelling). 
 
@@ -99,7 +99,7 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * Do not use all-caps unless that is the legal form of a name (so it's ARM, not Arm).
 
-## Grammar (and Similar Considerations)
+## Grammar (and similar considerations)
 
 * Feel free to ignore Latin grammar that’s been shoved down English’s throat (to boldly split where no infinitive was split before, as they say).
 
@@ -133,7 +133,7 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 Here is the correct form of several terms you shouldn’t be using: I couldn’t care less (unless you could); gobbledegook (not gobbledygook); groundbreaking (don’t flatter yourself); hovercraft (although if you find a legitimate reason to use this in mbed documentation, I’m sure we’ll all appreciate it); knowhow (it’s not two words, just an ugly one); morris dancing (as in “technical writing is the morris dancing of the writing world”); ongoing (not two words; not a word, either - it’s jargon, so don’t use it); Tardis (but see the note about hovercrafts).
 
-### In General
+### In general
 
 * Don't give the same thing two different names. This is not a cryptic puzzle.
 
@@ -163,7 +163,7 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 * Don't say an option enables or allows x, because that implies not that x will be performed, but that x is now available for selection. Unless that’s what you meant, of course.
 
-### Counting Things
+### Counting things
 
 * If you can count it, it's “fewer”. If you can't count it, it's “less”. This applies even if you can't, in practice, count it. This often doesn’t matter to readers, but sometimes choosing the wrong word makes a mess of your sentence. For example, you may modify a noun to be weaker (less) rather than smaller in number (fewer): “you’ll need less powerful boards” (weaker boards are enough) v “you’ll need fewer powerful boards” (if you use powerful boards, you won’t need as many).
 
@@ -199,8 +199,7 @@ So use active rather than passive constructions. "You can x", not "x can be". Bu
 
 * If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
 
-
-### It's its IT's ITs List
+### It's its IT's ITs list
 
 I never thought it would come to this, but I'm going to explain the difference between it's and its:
 
@@ -222,7 +221,7 @@ And while we're at it:
 
 * You is: singular form of you in some dialects. Again, confusing for non-native speakers.
 
-### Now I'm Really Nitpicking
+### Now I'm really nitpicking
 
 * Cannot is a single word. It's separated into two (can not) when you want to stress one of the words or when giving the option not to do something. This often makes you sound like a parent arguing with their child, so be careful.
 
@@ -300,7 +299,7 @@ For capitalisation of units of measurement, [see the last section](#capumeas).
 
 Capitals are distracting, so when in doubt - don’t use one.
 
-* For headers and titles, use sentence case (only the first letter and names of things are capitalised), even though as you can see I tend to use title case. This will save you the trouble of figuring out if “from” is capitalised in title case.
+* For headers and titles, use sentence case (only the first letter and proper names are capitalised).
 
 * If you really want to use title case that’s fine. Just <del>remember that some words are only capitalised if they’re at the head of a sentence, even when using title case. These include (but are not limited to): a, an, and, be, for, from (depending on who you ask; I asked the Guardian), in, is, of, off, on, or, the, to, too.</del> use [http://titlecapitalization.com/](http://titlecapitalization.com/).
 
@@ -320,7 +319,7 @@ Capitals are distracting, so when in doubt - don’t use one.
 
 * Do not use a capital letter after a semicolon.
 
-## Punctuation and the Such
+## Punctuation and the such
 
 Punctuation is the worst problem in many texts: it changes the meaning of a sentence, so if you don’t punctuate correctly you may [end up in a book](http://www.amazon.co.uk/Eats-Shoots-Leaves-Lynne-Truss/dp/0007329067).
 
@@ -414,7 +413,7 @@ Putting the stress on "her" makes the duck either a noun or a verb, but if it's 
 
 This is not an exhaustive list of the ways English writing can trip up readers. Be mindful of the different ways a sentence can be interpreted as you write.
 
-## Using Jargon
+## Using jargon
 
 [Don’t](http://www.amazon.co.uk/Who-Touched-Base-Thought-Shower/dp/1444781847).
 
@@ -430,7 +429,7 @@ ________
 # mbed
 </a>
 
-## Proper Nouns
+## Proper nouns
 
 Quick flashback to school (stop screaming, it will be over soon!): there are two kinds of nouns, proper and common. A proper noun points to a unique thing, and it therefore takes no article (unless the article is part of the name, like the Rolling Stones). A common noun, on the other hand, points to a class or a non-specific instance of a class, and therefore takes an article.
 
@@ -547,7 +546,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 _____
 
 <a name="capumeas">
-# Capitalisation of Units of Measurement
+# Capitalisation of units of measurement
 </a>
 
 * Remember the good ol’ days when computer terms were set by computer people? Well, those days are over. [So now KB, MB and GB mean “1,000”](https://xkcd.com/394/). A nice, round number, to be sure, but missing the sciency feel of two to the power of ten.
