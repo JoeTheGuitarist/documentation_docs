@@ -1,4 +1,4 @@
-# How to Write a user guide
+# How to write a user guide
 
 ## Introduction
 
