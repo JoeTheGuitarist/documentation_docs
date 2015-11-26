@@ -336,8 +336,8 @@ If you want to, you can write an entire readme file with only commas and periods
 * Regarding the Oxford Comma: I use it only when it helps clarify the sentence, sticking to the principle of removing unhelpful punctuation.
 
 * The comma after a word like “however” matters - use it correctly. Consider these examples:
- * "However, these are connected to each other” means “these two things are connected, although we told you earlier something that might make you think otherwise”.
- * "However these are connected to each other” means “no matter how you connected these, there is something else that needs to be done” (this sentence, therefore, is incomplete - your readers now expect an explanation of what they must do).
+	* "However, these are connected to each other” means “these two things are connected, although we told you earlier something that might make you think otherwise”.
+ 	* "However these are connected to each other” means “no matter how you connected these, there is something else that needs to be done” (this sentence, therefore, is incomplete - your readers now expect an explanation of what they must do).
 
 * The semicolon is the most awesome of the punctuation marks (and Vonnegut will [pardon me](http://www.goodreads.com/quotes/17178-here-is-a-lesson-in-creative-writing-first-rule-do)). By all means, use it. [However](http://theoatmeal.com/comics/semicolon), please remember that since the semicolon is used to connect ideas, it shouldn’t be followed by a connecting word (conjunction), so no “and”, “but”, “or” etc. If you think the relationship between the parts isn’t clear without a conjunction, change the semicolon to a colon or period and use the conjunction. Also: no capital letter after a semicolon, since you’re not starting a new sentence.
 
