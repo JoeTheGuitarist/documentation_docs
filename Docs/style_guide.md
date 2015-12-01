@@ -309,7 +309,7 @@ Capitals are distracting, so when in doubt - don’t use one.
 
 	* Initials: when you pronounce each letter. Do not use spaces or dots between the letters: BLE, API.
 
-	* Acronyms: pronounced as a single word. Capitalise only the first letter and do not add spaces or dots: Nasa, Nato (no, I couldn't think of a relevant example).
+	* Acronyms: pronounced as a single word. Capitalise only the first letter and do not add spaces or dots: Nato.
 
 	* LED or Led? Well, people pronounce them both ways, but for now we’ll stick with LED. That means that the article is *an*, not *a* (to fit the pronunciation “el ee dee”).
 
