@@ -7,5 +7,6 @@ pages:
 - ['publishing_guide.md', 'Guides', 'Publishing guide']
 - ['style_guide.md', 'Guides', 'Style guide']
 - ['writing_guide.md', 'Guides', 'Writing guide']
+- ['product_names.md', 'Guides', 'Product names']
 
 extra_css: ['FullCSS.css']
