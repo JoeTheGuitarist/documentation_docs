@@ -465,8 +465,6 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * mbed App (not mbed APP).
 
-* The short form of mbed Device Server is mbed DS, not mDS.
-
 ## The rest
 
 * Runtime (one word).
