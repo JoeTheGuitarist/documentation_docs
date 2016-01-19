@@ -455,7 +455,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 * Also not capitalised: yotta.
 
-* micro:bit, no capitals and don't forget the colon.
+* BBC micro:bit, no capitals and don't forget the colon.
 
 * mbed TLS (two words).
 
