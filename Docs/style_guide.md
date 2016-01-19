@@ -445,25 +445,7 @@ You can only use processor names as adjectives or adverbs. For example, refer to
 
 ## Spelling our product names
 
-* No capital letter in mbed, even at the start of a sentence. Be careful with this - autocorrect will change it.
-
-* mbed OS, not mbedOS or mbed-OS. 
-
-* ARM mbed (two words).
-
-* mbed Enabled (to match the name of the partner program).
-
-* Also not capitalised: yotta.
-
-* BBC micro:bit, no capitals and don't forget the colon.
-
-* mbed TLS (two words).
-
-* mbed OS uVisor.
-
-* mbed BLE, not mbed/BLE.
-
-* mbed App (not mbed APP).
+Please see [the product names page](product_names.md).
 
 ## The rest
 
