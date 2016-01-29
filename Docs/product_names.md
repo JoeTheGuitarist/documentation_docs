@@ -2,6 +2,8 @@
 
 * No capital letter in mbed, even at the start of a sentence.
 
+* mbed Classic.
+
 * mbed OS (two words), not mbedOS or mbed-OS. And not mbed os. 
 
 * ARM mbed (two words).
