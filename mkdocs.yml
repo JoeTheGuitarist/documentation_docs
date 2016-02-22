@@ -3,10 +3,10 @@ site_name: Documentation Guides
 docs_dir: Docs
 
 pages:
-- ['index.md','Introduction to the Documentation Guides']
-- ['publishing_guide.md', 'Guides', 'Publishing guide']
-- ['style_guide.md', 'Guides', 'Style guide']
-- ['writing_guide.md', 'Guides', 'Writing guide']
-- ['product_names.md', 'Guides', 'Product names']
-
-extra_css: ['FullCSS.css']
+- Introduction to the Documentation Guides: 'index.md'
+- Guides:
+  - 'Publishing guide': 'publishing_guide.md'
+  - 'Style guide': 'style_guide.md'
+  - 'Writing guide': 'writing_guide.md'
+- Naming:
+  - 'Product names': 'product_names.md'
