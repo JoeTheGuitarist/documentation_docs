@@ -7,13 +7,14 @@ The {{NAME}} API is declared in the [{{FILE_NAME}} header file]({{LINK_TO_HEADER
 [Optional] The generated documentation is located at {{DOCS.MBED_LINK}}.
 
 ## Requirements
-- list of requirements for the implementation to be ported - headers to be included, use of any other files outside of this porting, etc
 
-Some more info about the module comes here.
+- List of requirements for the implementation to be ported: headers to include, additinoal files and so on.
+
+{{Some more info about the module comes here.}}
 
 ## API
 
-A few words about what the API does and doesn't offer. Especially if functionality I might expect is actually in a different API.
+{{A few words about what the API does and doesn't offer. Especially if functionality I might expect is actually in a different API.}}
 
 Please implement the functions listed below.
 
@@ -26,11 +27,11 @@ Please implement the functions listed below.
 void function_declaration(void);
 ```
 
-More detailed information here. 
+{{More detailed information here.}}
 
 #### [Optional] Implementation example 
 
-The ideal generic implementation can be added, what is expected from the implementation.
+{{The ideal generic implementation; what is expected from the implementation.}}
 
 ```
 //
