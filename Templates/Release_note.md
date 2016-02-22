@@ -11,7 +11,7 @@
 {{New features and bug fixes}}
 {{It helps a lot to organize these under topics such as connectivity and security}}
 
-### Module versions
+### Modules versions
 
 [Optional: If your relase contains more than one module, list the module versions. If this list is *very* long it may be better to move it to the end of the release note]
 
