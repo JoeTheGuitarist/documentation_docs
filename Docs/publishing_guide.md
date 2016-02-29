@@ -32,6 +32,32 @@ Our documentation is written in Markdown and lives on GitHub:
 
 ## Publishing on docs.mbed.com
 
+### Structuring your project
+
+docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about how they structure a project. 
+
+**Note:** We use the old YML format to organize pages. For example, this is the YML for the project you're currently reading:
+```
+site_name: Documentation Guides
+
+docs_dir: Docs
+
+pages:
+- ['index.md','Introduction to the Documentation Guides']
+- ['publishing_guide.md', 'Guides', 'Publishing guide']
+- ['style_guide.md', 'Guides', 'Style guide']
+- ['writing_guide.md', 'Guides', 'Writing guide']
+- ['product_names.md', 'Guides', 'Product names']
+```
+
+In ``pages``, the elements are:
+
+1. Page_name.md
+1. Section title (not mandatory; the first page in this project isn't under a section title).
+1. Page title.
+
+### Publishing Markdown documentation
+
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
 - Log into docs.mbed.com with your **developer.mbed.org** credentials.
@@ -64,14 +90,11 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 * Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
 
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">
-**Tip**: docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about more options.</span>
+### Publishing Doxygen
 
-## Doxygen
+docs.mbed will try to build Doxygen for your repository along with the regular documentation, so you should follow the previous section's instructions for publishing Markdown.
 
-docs.mbed will try to build Doxygen for your repository along with the regular documentation. You can follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
+Note:
 
-To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
-
-______
-Copyright © 2015 ARM Ltd. All rights reserved.
+1. Please follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
+1. To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
