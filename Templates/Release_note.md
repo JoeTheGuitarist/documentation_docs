@@ -27,6 +27,10 @@
 
 [Optional - you can put this in a sepearte doc. If you do, don't forget to link to it, either under this header or in the Additional resources section]
 
+### Compatibility issues
+
+[Optional - if you know something in this version is incompatibilie with previous versions, tell users what it is, and how to make their existing code work]
+
 ## Additional resources
 
 [Optional - if you want to link the user to other interesting docs]
