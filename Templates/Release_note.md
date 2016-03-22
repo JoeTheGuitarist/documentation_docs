@@ -6,6 +6,7 @@
 
 {{Main features, expected impact on developers and so on}}
 
+[[The following sections should be repeated for each product or major component on its own; don't jumble them up]]
 ## Changes since last release
 
 {{New features and bug fixes}}
@@ -31,6 +32,8 @@
 
 [Optional - if you know something in this version is incompatibilie with previous versions, tell users what it is, and how to make their existing code work]
 
+
+[[The following section doesn't need to be repeated for each component; once is enough]]
 ## Additional resources
 
 [Optional - if you want to link the user to other interesting docs]
