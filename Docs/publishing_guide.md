@@ -28,7 +28,7 @@ Our documentation is written in Markdown and lives on GitHub:
 
 	* Create a directory for your file (https://github.com/ARMmbed/repo/doc/readme.md). 
 
-3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
+3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and deprecated.md.
 
 ## Publishing on docs.mbed.com
 
