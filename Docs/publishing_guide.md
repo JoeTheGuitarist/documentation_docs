@@ -55,9 +55,9 @@ You can see an example of this in the [uVisor_docs repo](https://github.com/ARMm
 
 ## Including code in your text (with an "import" button)
 
-If you don't want to copy/paste code into your text, you can include the raw source code. It's the same procedure as including pages, but you use slightly different syntax:
+If you don't want to copy/paste code into your text, you can include the raw source code. It's the same procedure as including pages, but you use slightly different syntax and you don't need the raw link:
 
-``code-include{https://raw.githubusercontent.com/ARMmbed/example-mbedos-blinky/master/source/blinky.cpp}``
+``code-include{https://github.com/ARMmbed/example-mbedos-blinky/blob/master/source/blinky.cpp}``
 
 This will add your code as a code block with an "import to IDE" button.
 
