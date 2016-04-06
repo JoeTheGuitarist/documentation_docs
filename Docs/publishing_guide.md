@@ -30,6 +30,39 @@ Our documentation is written in Markdown and lives on GitHub:
 
 3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 
+# docs.mbed features
+
+docs.mbed offers a few features that aren't normally available on GitHub-flavoured Markdown.
+
+## Including pages from other repos
+
+If you're working with several repos, but want to publish all of their docs under one docs.mbed project, you can do that without duplicating pages.
+
+1. Create your MD pages in whatever repos you want. Let's say ``source_repo/docs/source.md``.
+1. In the repo you want to publish, create an empty MD or use an existing MD. For example ``publishing_repo/docs/publish.md``.
+1. Get the link to the *raw* GitHub MD page from the source repo.
+1. Paste the raw link in the publishing repo, preceded by an exclamation mark and held within curly brackets:
+
+	``!{https://raw.githubusercontent.com/ARMmbed/source_repo/master/docs/source.md}``
+
+1. Publish your repo.
+
+Note that you cannot include parts of a page - you can only include the whole page.
+
+You can see an example of this in the [uVisor_docs repo](https://github.com/ARMmbed/uvisor_docs).
+
+<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
+
+## Including code in your text (with an "import" button)
+
+If you don't want to copy/paste code into your text, you can include the raw source code. It's the same procedure as including pages, but you use slightly different syntax:
+
+``code-include{https://raw.githubusercontent.com/ARMmbed/example-mbedos-blinky/master/source/blinky.cpp}``
+
+This will add your code as a code block with an "import to IDE" button.
+
+<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source code.</span>
+
 ## Publishing on docs.mbed.com
 
 ### Structuring your project
