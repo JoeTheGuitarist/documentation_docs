@@ -4,7 +4,7 @@ This guide is intended for developers who are trying to add documentation to the
 
 For advice about writing your documentation, see [the writing guide](writing_guide.md).
 
-## What to publish
+# What to publish
 
 Documentation about:
 
@@ -16,7 +16,7 @@ Documentation about:
 
 In other words: when you create a repository, or when you edit the code in an existing one, please create (or edit) documentation.
 
-## Using GitHub and Markdown
+# Using GitHub and Markdown
 
 Our documentation is written in Markdown and lives on GitHub:
 
@@ -30,42 +30,10 @@ Our documentation is written in Markdown and lives on GitHub:
 
 3. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and depricated.md.
 
-# docs.mbed features
 
-docs.mbed offers a few features that aren't normally available on GitHub-flavoured Markdown.
+# Publishing on docs.mbed.com
 
-## Including pages from other repos
-
-If you're working with several repos, but want to publish all of their docs under one docs.mbed project, you can do that without duplicating pages.
-
-1. Create your MD pages in whatever repos you want. Let's say ``source_repo/docs/source.md``.
-1. In the repo you want to publish, create an empty MD or use an existing MD. For example ``publishing_repo/docs/publish.md``.
-1. Get the link to the *raw* GitHub MD page from the source repo.
-1. Paste the raw link in the publishing repo, preceded by an exclamation mark and held within curly brackets:
-
-	``!{https://raw.githubusercontent.com/ARMmbed/source_repo/master/docs/source.md}``
-
-1. Publish your repo.
-
-Note that you cannot include parts of a page - you can only include the whole page.
-
-You can see an example of this in the [uVisor_docs repo](https://github.com/ARMmbed/uvisor_docs).
-
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
-
-## Including code in your text (with an "import" button)
-
-If you don't want to copy/paste code into your text, you can include the raw source code. It's the same procedure as including pages, but you use slightly different syntax and you don't need the raw link:
-
-``code-include{https://github.com/ARMmbed/example-mbedos-blinky/blob/master/source/blinky.cpp}``
-
-This will add your code as a code block with an "import to IDE" button.
-
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source code.</span>
-
-## Publishing on docs.mbed.com
-
-### Structuring your project
+## Structuring your project
 
 docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about how they structure a project. 
 
@@ -89,7 +57,7 @@ In ``pages``, the elements are:
 1. Section title (not mandatory; the first page in this project isn't under a section title).
 1. Page title.
 
-### Publishing Markdown documentation
+## Publishing Markdown documentation
 
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
@@ -123,14 +91,38 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 * Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
 
-### Publishing Doxygen
+# Using docs.mbed features
 
-docs.mbed will try to build Doxygen for your repository along with the regular documentation, so you should follow the previous section's instructions for publishing Markdown.
+docs.mbed offers a few features that aren't normally available on GitHub-flavoured Markdown.
 
-Note:
+## Including pages from other repos
 
-1. Please follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
-1. To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
+If you're working with several repos, but want to publish all of their docs under one docs.mbed project, you can do that without duplicating pages.
+
+1. Create your MD pages in whatever repos you want. Let's say ``source_repo/docs/source.md``.
+1. In the repo you want to publish, create an empty MD or use an existing MD. For example ``publishing_repo/docs/publish.md``.
+1. Get the link to the *raw* GitHub MD page from the source repo.
+1. Paste the raw link in the publishing repo, preceded by an exclamation mark and held within curly brackets:
+
+	``!{https://raw.githubusercontent.com/ARMmbed/source_repo/master/docs/source.md}``
+
+1. Publish your repo.
+
+Note that you cannot include parts of a page - you can only include the whole page.
+
+You can see an example of this in the [uVisor_docs repo](https://github.com/ARMmbed/uvisor_docs).
+
+<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
+
+## Including code in your text (with an "import" button)
+
+If you don't want to copy/paste code into your text, you can include the raw source code. It's the same procedure as including pages, but you use slightly different syntax and you don't need the raw link:
+
+``code-include{https://github.com/ARMmbed/example-mbedos-blinky/blob/master/source/blinky.cpp}``
+
+This will add your code as a code block with an "import to IDE" button.
+
+<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source code.</span>
 
 # Versioning your docs
 
@@ -159,3 +151,12 @@ In the **Choose Active Versions** section, check the branches you want to build.
 ## Building a branch
 
 In the project's **Build** page, the **Build version** drop-down lets you choose which version to build.
+
+# Publishing Doxygen
+
+docs.mbed will try to build Doxygen for your repository along with the regular documentation, so you should follow the previous section's instructions for publishing Markdown.
+
+Note:
+
+1. Please follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
+1. To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
