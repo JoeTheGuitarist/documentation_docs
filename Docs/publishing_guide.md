@@ -144,7 +144,7 @@ And this is what the version picker looks like when I build my versions:
 
 If you have more than one branch, docs.mbed will offer you a list of branches to build in **Dashboard > Admin > Versions**:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs.png)
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs_check.png)
 
 In the **Choose Active Versions** section, check the branches you want to build. You can remove them any time you like.
 
