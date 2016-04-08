@@ -131,3 +131,31 @@ Note:
 
 1. Please follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
 1. To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
+
+# Versioning your docs
+
+docs.mbed supports publishing several versions of a project, and lets the users flip between versions as they read. 
+
+## Creating branches for documentation
+
+The basis for document versions is GitHub branches - so think before you name your branches, because that is what the users will see on docs.mbed.
+
+These are my branches:
+
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)
+
+And this is what the version picked looks like when I build my versions:
+
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs.png)
+
+## Selecting branches to publish
+
+If you have more than one branch, docs.mbed will offer you a list of branches to build in **Dashboard > Admin > Versions**:
+
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs.png)
+
+In the **Choose Active Versions** section, check the branches you want to build. You can remove them any time you like.
+
+## Building a branch
+
+In the project's **Build** page, the **Build version** drop-down lets you choose which version to build.
