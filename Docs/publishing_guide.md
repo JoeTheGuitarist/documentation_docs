@@ -142,11 +142,11 @@ The basis for document versions is GitHub branches - so think before you name yo
 
 These are my branches:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)
-
-And this is what the version picked looks like when I build my versions:
-
 <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs.png)
+
+And this is what the version picker looks like when I build my versions:
+
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)
 
 ## Selecting branches to publish
 
