@@ -132,6 +132,7 @@ docs.mbed supports publishing several versions of a project, and lets the users 
 
 The basis for document versions is GitHub branches - so think before you name your branches, because that is what the users will see on docs.mbed.
 
+
 These are my branches:
 
 <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_GH.png)</span>
