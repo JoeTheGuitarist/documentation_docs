@@ -148,6 +148,8 @@ If you have more than one branch, docs.mbed will offer you a list of branches to
 
 In the **Choose Active Versions** section, check the branches you want to build. You can remove them any time you like.
 
+<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** For an existing project, you may have to trigger a build to refresh the list of available versions.</span>
+
 ## Building a branch
 
 In the project's **Build** page, the **Build version** drop-down lets you choose which version to build.
