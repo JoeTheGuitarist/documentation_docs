@@ -45,10 +45,10 @@ docs_dir: Docs
 
 pages:
 - ['index.md','Introduction to the Documentation Guides']
-- ['publishing_guide.md', 'Guides', 'Publishing guide']
-- ['style_guide.md', 'Guides', 'Style guide']
-- ['writing_guide.md', 'Guides', 'Writing guide']
-- ['product_names.md', 'Guides', 'Product names']
+- ['publishing_guide.md', 'Publishing Guide', 'Publishing guide']
+- ['style_guide.md', 'Writing Guides', 'Style guide']
+- ['writing_guide.md', 'Writing Guides', 'Writing guide']
+- ['product_names.md', 'Writing Guides', 'Product names']
 ```
 
 In ``pages``, the elements are:
