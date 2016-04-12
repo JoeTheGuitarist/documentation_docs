@@ -134,17 +134,17 @@ The basis for document versions is GitHub branches - so think before you name yo
 
 These are my branches:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_GH.png)
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_GH.png)</span>
 
 And this is what the version picker looks like when I build my versions:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)</span>
 
 ## Selecting branches to publish
 
 If you have more than one branch, docs.mbed will offer you a list of branches to build in **Dashboard > Admin > Versions**:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs_check.png)
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs_check.png)</span>
 
 In the **Choose Active Versions** section, check the branches you want to build. You can remove them any time you like.
 
