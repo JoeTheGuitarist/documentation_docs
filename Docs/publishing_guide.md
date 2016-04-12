@@ -116,7 +116,10 @@ You can see an example of this in the [uVisor_docs repo](https://github.com/ARMm
 
 ## Including code in your text (with an "import" button)
 
-If you don't want to copy/paste code into your text, you can include the source code. It will even have an "Import to IDE" button.
+If you don't want to copy/paste code into your text, you can include the source code. It will even offer import options:
+
+* If you're on GitHub, you'll be taken to the source file.
+* If you're on docs.mbed, you'll be taken to the IDE with the file automatically imported.
 
 Including code is the same procedure as including pages, but you use slightly different syntax and you don't need the raw link:
 
