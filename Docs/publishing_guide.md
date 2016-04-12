@@ -114,33 +114,6 @@ You can see an example of this in the [uVisor_docs repo](https://github.com/ARMm
 
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
 
-## Including code in your text (with an "import" button)
-
-If you don't want to copy/paste code into your text, you can include the source code. It will even offer import options:
-
-* If you're on GitHub, you'll be taken to the source file.
-* If you're on docs.mbed, you'll be taken to the IDE with the file automatically imported.
-
-Including code is the same procedure as including pages, but you use slightly different syntax and you don't need the raw link:
-
-The general syntax is:
-
-```[![View code](https://www.mbed.com/embed/?url=repo-url)](source-url)```
-
-You need to replace:
-
-* ``repo-url`` with the URL of your GitHub repository 
-* ``source-url`` with the specific ``cpp`` file you want to show.
-
-Here's an example:
-
-```[![View code](https://www.mbed.com/embed/?url=https://github.com/ARMmbed/example-mbedos-blinky)](https://github.com/ARMmbed/example-mbedos-blinky/blob/master/source/blinky.cpp)```
-
-And here it is rendered on GitHub:
-
-[![View code](https://www.mbed.com/embed/?url=https://github.com/ARMmbed/example-mbedos-blinky)](https://github.com/ARMmbed/example-mbedos-blinky/blob/master/source/blinky.cpp)
-
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source code.</span>
 
 # Versioning your docs
 
