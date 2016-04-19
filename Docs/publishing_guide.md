@@ -40,7 +40,7 @@ If you want to have a code block in a numbered list, you can't use the fencing `
 
 Here's an example: 
 
-![Count the indents](Images/Code_Block.png)
+<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Count the indents](Images/Code_Block.png)</span>
 
 It renders as:
 
@@ -99,35 +99,35 @@ In ``pages``, the elements are:
 
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
-- Log into docs.mbed.com with your **developer.mbed.org** credentials.
+1. Log into docs.mbed.com with your **developer.mbed.org** credentials.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](Images/DocsLogin.png)</span>
+    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](Images/DocsLogin.png)</span>
 
-- You are taken to your dashboard.
+1. You are taken to your dashboard.
 
-- Click **Import a Project**.
+1. Click **Import a Project**.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Import](Images/Import.png)</span>
+    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Import](Images/Import.png)</span>
 
-- You have two importing options. Click **Manually Import Project**.
+1. You have two importing options. Click **Manually Import Project**.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Manually import](Images/ManuallyImport.png)</span>
+    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Manually import](Images/ManuallyImport.png)</span>
 
-- Name your project and enter the GitHub repo URL.
+1. Name your project and enter the GitHub repo URL.
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project details](Images/ProjectDetails.png)</span>
+    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project details](Images/ProjectDetails.png)</span>
 
-- Review the other options. The default values may well be all you need.
+1. Review the other options. The default values may well be all you need.
 
-- Click **Next**. You are taken to the project page.
+1. Click **Next**. You are taken to the project page.
 
-- The project tries to build a first version as soon as it's created. Click **Builds** to see the build's progress. 
+1. The project tries to build a first version as soon as it's created. Click **Builds** to see the build's progress. 
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project home page](Images/ProjectHome.png)</span>
+    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project home page](Images/ProjectHome.png)</span>
 
-* When the build is done, you can click **View Docs** to see your project. 
+1. When the build is done, you can click **View Docs** to see your project. 
 
-* Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
+**Tip:** Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
 
 # Using docs.mbed features
 
