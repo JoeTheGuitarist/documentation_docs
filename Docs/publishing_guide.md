@@ -32,9 +32,9 @@ Our documentation is written in Markdown and lives on GitHub:
 
 ## Markdown syntax pointers
 
-The Markdown engine we use on docs.mbed - [MkDocs](http://www.mkdocs.org/user-guide/writing-your-docs/) - doesn't use exactly the same syntax as GitHub. That means that some things that will look good on GitHub will not render correctly on docs.mbed.
+The Markdown engine we use on docs.mbed - [MkDocs](http://www.mkdocs.org/user-guide/writing-your-docs/) - doesn't use exactly the same syntax as GitHub. This means that some things that look good on GitHub don't render correctly on docs.mbed. To get proper rendering on docs.mbed, you need to adjust your syntax a little.
 
-Note that all of the syntax shown here also works on GitHub, so making sure it works on docs.mbed doesn't make it unreadable on GitHub.
+Note that adjusting your syntax to match docs.mbed doesn't damage the text's appearance on GitHub, because GitHub supports both syntaxes.
 
 ### Code blocks within lists
 
