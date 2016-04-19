@@ -34,9 +34,15 @@ Our documentation is written in Markdown and lives on GitHub:
 
 The Markdown engine we use on docs.mbed - [MkDocs](http://www.mkdocs.org/user-guide/writing-your-docs/) - doesn't use exactly the same syntax as GitHub. That means that some things that will look good on GitHub will not render correctly on docs.mbed.
 
+Note that all of the syntax shown here also works on GitHub, so making sure it works on docs.mbed doesn't make it unreadable on GitHub.
+
 ### Code blocks within lists
 
-If you want to have a code block in a numbered list, you can't use the fencing ``` syntax. Instead, use eight spaces (not Tab) to start the block, then four more spaces for each indent the code requires:
+If you want to have a code block in a numbered list, you can't use the fencing ``` syntax. Instead:
+
+* You need an empty line before and after the code block.
+* Use eight spaces (not Tab) to start the block.
+* Use four more spaces (again - not Tab) for each indent the code requires.
 
 Here's an example: 
 
