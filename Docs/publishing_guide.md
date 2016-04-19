@@ -20,7 +20,7 @@ In other words: when you create a repository, or when you edit the code in an ex
 
 Our documentation is written in Markdown and lives on GitHub:
 
-1. [Here's a summary of GitHub flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/).
+1. MkDocs review [basic Markdown syntax](http://www.mkdocs.org/user-guide/writing-your-docs/) on their site.
 
 1. Your docs should sit in the same GitHub repository as the code. So if you have a repo at github.com/ARMmbed/repo, you have two options:
 
@@ -30,6 +30,44 @@ Our documentation is written in Markdown and lives on GitHub:
 
 1. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and deprecated.md.
 
+## Markdown syntax pointers
+
+The Markdown engine we use on docs.mbed - [MkDocs](http://www.mkdocs.org/user-guide/writing-your-docs/) - doesn't use exactly the same syntax as GitHub. That means that some things that will look good on GitHub will not render correctly on docs.mbed.
+
+### Code blocks within lists
+
+If you want to have a code block in a numbered list, you can't use the fencing ``` syntax. Instead, use eight spaces (not Tab) to start the block, then four more spaces for each indent the code requires:
+
+Here's an example: 
+
+![Count the indents](Images/Code_Block.png)
+
+It renders as:
+
+1. Create a `main.cpp` file with the following content:
+
+        #include "mbed.h"
+
+        DigitalOut led(LED1);
+
+        int main()
+        {
+            while (true) {
+                led = !led; // toggle led
+                wait(0.2f);
+            }
+        }
+
+1. Click  *Compile* and verify that your application builds as expected.  
+
+### Lists with more than one level
+
+If you want a list to render with more than one level of numbers or bullets, you need to use four spaces instead of Tab:
+
+1. Level one first item
+    1. Level two first item
+    1. Level two second item
+1. Level one second item
 
 # Publishing on docs.mbed.com
 
