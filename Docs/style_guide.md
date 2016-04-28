@@ -14,7 +14,7 @@ The trick with a style guide isn’t to remember the right way of using all of t
 
 If you want more information about writing, see our [writing guide](writing_guide.md). It deals with things like writing examples and instructions, ordering your text and self-editing.
 
-# The short version
+## The short version
 
 The underlying rule of this style guide is "be clear", and all** other rules are its elaborations or symptoms.
 
@@ -40,12 +40,12 @@ One last comment: If you have a sense of humour - use it. In a pinch, [link](htt
 ______
 
 <a name="english">
-# English
+## English
 </a>
 
 Brilliant language, I love it. But it’s completely bonkers.
 
-## Learning from our betters
+### Learning from our betters
 
 If you’re not sure, follow this emergency procedure:
 
@@ -57,7 +57,7 @@ If you’re not sure, follow this emergency procedure:
 
 4. When all else fails, ask Google. Try to remain with fairly recent sources; you don’t want Advice from the Period of English when all Nouns got a Capital.
 
-## A word about American v British English
+### A word about American v British English
 
 ARM uses the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/contents) and [Merriam-Webster's Collegiate Dictionary](http://www.merriam-webster.com/). Both of these are in American English (or International English, which follows the American spelling). 
 
@@ -89,7 +89,7 @@ The ARM style guide has a summary of the most consistent differences between Bri
 * Words ending in -ogue end in -og. 
 	* For example: — Dialogue is dialog
 
-## Spelling
+### Spelling
 
 * Put all your text into something that can check your spelling. Do not trust yourself.
 
@@ -99,7 +99,7 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * Do not use all-caps unless that is the legal form of a name (so it's ARM, not Arm).
 
-## Grammar (and similar considerations)
+### Grammar (and similar considerations)
 
 * Feel free to ignore Latin grammar that’s been shoved down English’s throat (to boldly split where no infinitive was split before, as they say).
 
@@ -129,11 +129,11 @@ The ARM style guide has a summary of the most consistent differences between Bri
 
 * Plurals: use [common sense](http://www.theguardian.com/media/mind-your-language/2015/jul/17/two-whoppers-junior-please-with-hashes-brown-on-the-side).
 
-## Vocabulary
+### Vocabulary
 
 Here is the correct form of several terms you shouldn’t be using: I couldn’t care less (unless you could); gobbledegook (not gobbledygook); groundbreaking (don’t flatter yourself); hovercraft (although if you find a legitimate reason to use this in mbed documentation, I’m sure we’ll all appreciate it); knowhow (it’s not two words, just an ugly one); morris dancing (as in “technical writing is the morris dancing of the writing world”); ongoing (not two words; not a word, either - it’s jargon, so don’t use it); Tardis (but see the note about hovercrafts).
 
-### In general
+#### In general
 
 * Don't give the same thing two different names. This is not a cryptic puzzle.
 
@@ -149,7 +149,7 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 * On first use, give the meaning of initials, then the initials in parentheses. For example, it’s Bluetooth Low Energy (BLE), not BLE (Bluetooth Low Energy). Don’t bother doing this with things that are more commonly known by their initials, like BBC. You can put the full term in italics if you like: *Bluetooth Low Energy* (BLE).
 
-### Verbs
+#### Verbs
 
 * There is a difference between the verb and noun forms of many words in software. For example, login is the noun, log in is the verb. So the window is Login, but the button is Log In (yes, buttons are verbs). Other pairs: setup/set up; startup/start up; takeoff/take off.
 
@@ -163,7 +163,7 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 
 * Don't say an option enables or allows x, because that implies not that x will be performed, but that x is now available for selection. Unless that’s what you meant, of course.
 
-### Counting things
+#### Counting things
 
 * If you can count it, it's “fewer”. If you can't count it, it's “less”. This applies even if you can't, in practice, count it. This often doesn’t matter to readers, but sometimes choosing the wrong word makes a mess of your sentence. For example, you may modify a noun to be weaker (less) rather than smaller in number (fewer): “you’ll need less powerful boards” (weaker boards are enough) v “you’ll need fewer powerful boards” (if you use powerful boards, you won’t need as many).
 
@@ -185,7 +185,7 @@ Here is the correct form of several terms you shouldn’t be using: I couldn’t
 	
 * Thanks to the Economist, we know that [last year is 2014](http://www.economist.com/styleguide/l#node-21534682). If you mean the 12 months up to now, you mean past year. This applies to month and week, too. Generally, it’s easier to give an exact date (or range of dates), so that your dates don’t become outdated.
 
-### Passive and active
+#### Passive and active
 
 The objection to passive constructions is not as mental as you think. A passive sentence can make perfectly resonable developers think they don't have control of the process, when in fact you were trying to tell them exactly the opposite. 
 
@@ -199,7 +199,7 @@ So use active rather than passive constructions. "You can x", not "x can be". Bu
 
 * If there's no way to control something, it's better to use the passive voice rather than mislead the reader. For example, don't create an illusion that something is under the user's control when it's actually hardcoded.
 
-### It's its IT's ITs list
+#### It's its IT's ITs list
 
 I never thought it would come to this, but I'm going to explain the difference between it's and its:
 
@@ -221,7 +221,7 @@ And while we're at it:
 
 * You is: singular form of you in some dialects. Again, confusing for non-native speakers.
 
-### Now I'm really nitpicking
+#### Now I'm really nitpicking
 
 * Cannot is a single word. It's separated into two (can not) when you want to stress one of the words or when giving the option not to do something. This often makes you sound like a parent arguing with their child, so be careful.
 
@@ -293,7 +293,7 @@ And while we're at it:
 
 * Pixelated (but pixilated means drunk, so you may well be using it correctly).
 
-## Capitalisation
+### Capitalisation
 
 For capitalisation of units of measurement, [see the last section](#capumeas).
 
@@ -319,7 +319,7 @@ Capitals are distracting, so when in doubt - don’t use one.
 
 * Do not use a capital letter after a semicolon.
 
-## Punctuation and the such
+### Punctuation and the such
 
 Punctuation is the worst problem in many texts: it changes the meaning of a sentence, so if you don’t punctuate correctly you may [end up in a book](http://www.amazon.co.uk/Eats-Shoots-Leaves-Lynne-Truss/dp/0007329067).
 
@@ -385,7 +385,7 @@ If you want to, you can write an entire readme file with only commas and periods
 
 * For other uses of apostrophes: if you're confused, reword your sentence so that you no longer have to figure out whether or not you need one. Please note the difference between "rewording" and "just ignoring it".
 
-## Ambiguity
+### Ambiguity
 
 Ambiguity is English's superpower. The sentence structure is flexible, but the words don't always indicate their role in the sentence. Words have dozens of meanings, and often several of them can fit the sentence - making perfect grammatical sense while changing reality. Compound nouns abound ("National Basketball Association slam dunk championship all-star tournament finalists". And you dare make fun of German?). You are not going to eliminate all ambiguity from your writing, but you can make an honest effort not to be Hamlet.
 
@@ -413,7 +413,7 @@ Putting the stress on "her" makes the duck either a noun or a verb, but if it's 
 
 This is not an exhaustive list of the ways English writing can trip up readers. Be mindful of the different ways a sentence can be interpreted as you write.
 
-## Using jargon
+### Using jargon
 
 [Don’t](http://www.amazon.co.uk/Who-Touched-Base-Thought-Shower/dp/1444781847).
 
@@ -426,10 +426,10 @@ Here’s a handy way of identifying jargon: imagine a politician saying your sen
 ________
 
 <a name="mbed">
-# mbed
+## mbed
 </a>
 
-## Proper nouns
+### Proper nouns
 
 Quick flashback to school (stop screaming, it will be over soon!): there are two kinds of nouns, proper and common. A proper noun points to a unique thing, and it therefore takes no article (unless the article is part of the name, like the Rolling Stones). A common noun, on the other hand, points to a class or a non-specific instance of a class, and therefore takes an article.
 
@@ -439,15 +439,15 @@ The difference is more obvious in the following two sentences: "we call waitForE
 
 This is not 100% consistent. Nothing in English is, though, so I’m not too worried.
 
-## Processors
+### Processors
 
 You can only use processor names as adjectives or adverbs. For example, refer to the ARM926EJ-S processor, not the ARM926EJ-S.
 
-## Spelling our product names
+### Spelling our product names
 
 Please see [the product names page](product_names.md).
 
-## The rest
+### The rest
 
 * Runtime (one word).
 
@@ -526,7 +526,7 @@ Please see [the product names page](product_names.md).
 _____
 
 <a name="capumeas">
-# Capitalisation of units of measurement
+## Capitalisation of units of measurement
 </a>
 
 * Remember the good ol’ days when computer terms were set by computer people? Well, those days are over. [So now KB, MB and GB mean “1,000”](https://xkcd.com/394/). A nice, round number, to be sure, but missing the sciency feel of two to the power of ten.
