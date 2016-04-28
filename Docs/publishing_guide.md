@@ -4,7 +4,7 @@ This guide is intended for developers who are trying to add documentation to the
 
 For advice about writing your documentation, see [the writing guide](writing_guide.md).
 
-# What to publish
+## What to publish
 
 Documentation about:
 
@@ -16,7 +16,7 @@ Documentation about:
 
 In other words: when you create a repository, or when you edit the code in an existing one, please create (or edit) documentation.
 
-# Using GitHub and Markdown
+## Using GitHub and Markdown
 
 Our documentation is written in Markdown and lives on GitHub:
 
@@ -30,13 +30,13 @@ Our documentation is written in Markdown and lives on GitHub:
 
 1. Feel free to create more than one MD file. But you should probably have readme.md as the main, because most people will look at it first. Then you can add files like API.md, changelog.md and deprecated.md.
 
-## Markdown syntax pointers
+### Markdown syntax pointers
 
 The Markdown engine we use on docs.mbed - [MkDocs](http://www.mkdocs.org/user-guide/writing-your-docs/) - doesn't use exactly the same syntax as GitHub. This means that some things that look good on GitHub don't render correctly on docs.mbed. To get proper rendering on docs.mbed, you need to adjust your syntax a little.
 
 Note that adjusting your syntax to match docs.mbed doesn't damage the text's appearance on GitHub, because GitHub supports both syntaxes.
 
-### Code blocks within lists
+#### Code blocks within lists
 
 If you want to have a code block in a numbered list, you can't use the fencing ``` syntax. Instead:
 
@@ -66,7 +66,7 @@ It renders as:
 
 1. Click  *Compile* and verify that your application builds as expected.  
 
-### Lists with more than one level
+#### Lists with more than one level
 
 If you want a list to render with more than one level of numbers or bullets, you need to use four spaces instead of Tab:
 
@@ -75,9 +75,9 @@ If you want a list to render with more than one level of numbers or bullets, you
     1. Level two second item
 1. Level one second item
 
-# Publishing on docs.mbed.com
+## Publishing on docs.mbed.com
 
-## Structuring your project
+### Structuring your project
 
 docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about how they structure a project. 
 
@@ -101,7 +101,7 @@ In ``pages``, the elements are:
 1. Section title (not mandatory; the first page in this project isn't under a section title).
 1. Page title.
 
-## Publishing Markdown documentation
+### Publishing Markdown documentation
 
 Documentation living on GitHub can be published on [docs.mbed.com](http://docs.mbed.com) using your mbed account:
 
@@ -135,11 +135,11 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 **Tip:** Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
 
-# Using docs.mbed features
+## Using docs.mbed features
 
 docs.mbed offers a few features that aren't normally available on GitHub-flavoured Markdown.
 
-## Including pages from other repos
+### Including pages from other repos
 
 If you're working with several repos, but want to publish all of their docs under one docs.mbed project, you can do that without duplicating pages.
 
@@ -159,11 +159,11 @@ You can see an example of this in the [uVisor_docs repo](https://github.com/ARMm
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
 
 
-# Versioning your docs
+## Versioning your docs
 
 docs.mbed supports publishing several versions of a project, and lets the users flip between versions as they read. 
 
-## Creating branches for documentation
+### Creating branches for documentation
 
 The basis for document versions is GitHub branches - so think before you name your branches, because that is what the users will see on docs.mbed.
 
@@ -176,7 +176,7 @@ And this is what the version picker looks like when I build my versions:
 
 <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)</span>
 
-## Selecting branches to publish
+### Selecting branches to publish
 
 If you have more than one branch, docs.mbed will offer you a list of branches to build in **Dashboard > Admin > Versions**:
 
@@ -186,11 +186,11 @@ In the **Choose Active Versions** section, check the branches you want to build.
 
 <span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** For an existing project, you may have to trigger a build to refresh the list of available versions.</span>
 
-## Building a branch
+### Building a branch
 
 In the project's **Build** page, the **Build version** drop-down lets you choose which version to build.
 
-# Publishing Doxygen
+## Publishing Doxygen
 
 docs.mbed will try to build Doxygen for your repository along with the regular documentation, so you should follow the previous section's instructions for publishing Markdown.
 
