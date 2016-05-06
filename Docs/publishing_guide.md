@@ -46,7 +46,7 @@ If you want to have a code block in a numbered list, you can't use the fencing `
 
 Here's an example: 
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Count the indents](Images/Code_Block.png)</span>
+<span class="images">![](Images/Code_Block.png)<span>Count the indents</span></span>
 
 It renders as:
 
@@ -81,7 +81,7 @@ If you want a list to render with more than one level of numbers or bullets, you
 
 docs.mbed.com uses the [Mkdocs engine](http://www.mkdocs.org/). Read [their documentation](http://www.mkdocs.org/#getting-started) to learn about how they structure a project. 
 
-**Note:** We use the old YML format to organize pages. For example, this is the YML for the project you're currently reading:
+<span class="notes">**Note:** We use the old YML format to organize pages. For example, this is the YML for the project you're currently reading:</span>
 ```
 site_name: Documentation Guides
 
@@ -107,21 +107,21 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 1. Log into docs.mbed.com with your **developer.mbed.org** credentials.
 
-    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Logging in](Images/DocsLogin.png)</span>
+    <span class="images">![](Images/DocsLogin.png)<span>Logging in</span></span>
 
 1. You are taken to your dashboard.
 
 1. Click **Import a Project**.
 
-    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Import](Images/Import.png)</span>
+    <span class="images">![](Images/Import.png)<span>Import</span></span>
 
 1. You have two importing options. Click **Manually Import Project**.
 
-    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Manually import](Images/ManuallyImport.png)</span>
+    <span class="images">![](Images/ManuallyImport.png)<span>Manually import</span></span>
 
 1. Name your project and enter the GitHub repo URL.
 
-    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project details](Images/ProjectDetails.png)</span>
+    <span class="images">![](Images/ProjectDetails.png)<span>Project details</span></span>
 
 1. Review the other options. The default values may well be all you need.
 
@@ -129,11 +129,11 @@ Documentation living on GitHub can be published on [docs.mbed.com](http://docs.m
 
 1. The project tries to build a first version as soon as it's created. Click **Builds** to see the build's progress. 
 
-    <span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![Project home page](Images/ProjectHome.png)</span>
+    <span class="images">![](Images/ProjectHome.png)<span>Project home page</span></span>
 
 1. When the build is done, you can click **View Docs** to see your project. 
 
-**Tip:** Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.
+<span class="tips">**Tip:** Your project's Admin page allows adding tags to your projects (as comma-seperated words). Tags help users find your documents, so we recommend using them.</span>
 
 ## Using docs.mbed features
 
@@ -156,7 +156,7 @@ Note that you cannot include parts of a page - you can only include the whole pa
 
 You can see an example of this in the [uVisor_docs repo](https://github.com/ARMmbed/uvisor_docs).
 
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** you must republish your repo to show changes in the source repos.</span>
+<span class="notes">**Note:** you must republish your repo to show changes in the source repos.</span>
 
 
 ## Versioning your docs
@@ -170,21 +170,21 @@ The basis for document versions is GitHub branches - so think before you name yo
 
 These are my branches:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_GH.png)</span>
+<span class="images">![](Images/Versions_on_GH.png)</span>
 
 And this is what the version picker looks like when I build my versions:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_selection.png)</span>
+<span class="images">![](Images/Versions_selection.png)</span>
 
 ### Selecting branches to publish
 
 If you have more than one branch, docs.mbed will offer you a list of branches to build in **Dashboard > Admin > Versions**:
 
-<span style="background-color: #F0F0F5; text-align:center;display:block; height:100%; padding:10px;">![](Images/Versions_on_docs_check.png)</span>
+<span class="images">![](Images/Versions_on_docs_check.png)</span>
 
 In the **Choose Active Versions** section, check the branches you want to build. You can remove them any time you like.
 
-<span style="background-color:#E6E6E6;border:1px solid #000;display:block; height:100%; padding:10px">**Note:** For an existing project, you may have to trigger a build to refresh the list of available versions.</span>
+<span class="notes">**Note:** For an existing project, you may have to trigger a build to refresh the list of available versions.</span>
 
 ### Building a branch
 
