@@ -40,7 +40,7 @@ Our style guide is [available here](style_guide.md).
 
 Here is an important distinction: where you start writing and where the user starts reading are not the same place. The user will start at the beginning. You will not. This means you'll need to know:
 
-1. [What your'e going to write](#the-writing-map).
+1. [What you're going to write](#the-writing-map).
 
 2. [How to put it together to be read.](#the-reading-map)
 
