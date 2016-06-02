@@ -207,11 +207,11 @@ If you want a list to render with more than one level of numbers or bullets, you
 
 The docs.mbed engine supports the following syntax:
 
-1. ``<span class="notes">some text</span>``
+1. ``<span class="notes">This is what a note looks like</span>``
 	<span class="notes">This is what a note looks like</span>
-1. ``<span class="tips">some text</span>``
+1. ``<span class="tips">This is what a tip looks like</span>``
 	<span class="tips">This is what a tip looks like</span>
-1. ``<span class="warnings">some text</span>``
+1. ``<span class="warnings">This is what a warning looks like</span>``
 	<span class="warnings">This is what a warning looks like</span>
 1. ``<span class="images">![](image_source)<span>caption</span></span>``
 	<span class="images">![](Images/Flowers.jpg)<span>This is what an image looks like</span></span>
