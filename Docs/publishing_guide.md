@@ -198,3 +198,18 @@ Note:
 
 1. Please follow the general [Doxygen guidelines](http://www.stack.nl/~dimitri/doxygen/) to write your comments.
 1. To generate a main page for your Doxygen, please create a markdown file in your repository's root called ``DOXYGEN_FRONTPAGE.md``.
+
+## Styling your docs
+
+The docs.mbed engine supports the following syntax:
+
+1. ``<span class="notes">some text</span>``
+	<span class="notes">This is what a note looks like</span>
+1. ``<span class="tips">some text</span>``
+	<span class="tips">This is what a tip looks like</span>
+1. ``<span class="warnings">some text</span>``
+	<span class="warnings">This is what a warning looks like</span>
+1. ``<span class="images">![](image_source)<span>caption</span></span>``
+	<span class="images">![](Images/Flowers.jpg)<span>This is what an image looks like</span></span>
+
+<span class="notes">**Note:** If you're reading this on GitHub you will see the default GitHub styling, not our styling.</span>
