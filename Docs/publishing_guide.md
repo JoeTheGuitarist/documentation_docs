@@ -57,8 +57,8 @@ In ``pages``, the elements are:
 1. Section title (not mandatory; the first page in this project isn't under a section title).
 1. Page title.
 
-<span class="tips">**Tips:** The table of contents on docs.mbed shows the page title from the YML *instead of* header 1; header 1 is shown only as part of the text. This prevents having two page titles - one from the YML and one from header 1 - appearing together in the table of contents.
-<span class="images">![](Images/Header1.png)<span>The table of contents shows the page title from the YML, not header 1. The first header the table of contents shows is header 2</span></span>
+<span class="tips">**Tip:** The table of contents on docs.mbed shows the page title from the YML *instead of* header 1; header 1 is shown only as part of the text. This prevents having two page titles - one from the YML and one from header 1 - appearing together in the table of contents.
+<span class="images">![](Images/Header1.png)<span>The table of contents shows the page title from the YML, not header 1.</span></span>
 </span>
 
 ### Publishing Markdown documentation
@@ -126,7 +126,6 @@ docs.mbed supports publishing several versions of a project, and lets the users 
 ### Creating branches for documentation
 
 The basis for document versions is GitHub branches - so think before you name your branches, because that is what the users will see on docs.mbed.
-
 
 These are my branches:
 
