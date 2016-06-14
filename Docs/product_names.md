@@ -2,7 +2,7 @@
 
 * No capital letter in mbed, even at the start of a sentence.
 
-* mbed OS 2,0, mbed OS 3.0 and mbed OS 4.0.
+* mbed OS 2.0, mbed OS 3.0 and mbed OS 4.0.
 
 * mbed OS (two words), not mbedOS or mbed-OS. And not mbed os. 
 
