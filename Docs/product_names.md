@@ -14,13 +14,13 @@
 
 * mbed TLS (two words).
 
-* mbed OS uVisor.
+* mbed uVisor.
 
-* mbed BLE, not mbed/BLE.
+* mbed BLE, not mbed/BLE or BLE_API.
 
 * mbed Device Connector.
 
 * mbed Device Server.
 
-* mbed Client.
+* mbed Cloud Client.
 
